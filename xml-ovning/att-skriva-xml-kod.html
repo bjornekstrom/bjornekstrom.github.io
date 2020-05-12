@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>2 Att skriva XML-kod | Övning i XML/DTD</title>
+  <meta name="description" content="2 Att skriva XML-kod | Övning i XML/DTD">
+  <meta name="generator" content="bookdown  and GitBook 2.6.7">
+
+  <meta property="og:title" content="2 Att skriva XML-kod | Övning i XML/DTD" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 Att skriva XML-kod | Övning i XML/DTD" />
+  
+  
+  
+
+<meta name="author" content="Yoshiko Nordeborg">
+<meta name="author" content="Björn Ekström">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="valformad-xml.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; position: absolute; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource a.sourceLine:empty
+  { position: absolute; }
+pre.numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Inledning</a></li>
+<li class="chapter" data-level="2" data-path="att-skriva-xml-kod.html"><a href="att-skriva-xml-kod.html"><i class="fa fa-check"></i><b>2</b> Att skriva XML-kod</a><ul>
+<li class="chapter" data-level="2.1" data-path="att-skriva-xml-kod.html"><a href="att-skriva-xml-kod.html#skapa-en-xml-fil"><i class="fa fa-check"></i><b>2.1</b> Skapa en XML-fil</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="att-skriva-xml-kod.html"><a href="att-skriva-xml-kod.html#editix"><i class="fa fa-check"></i><b>2.1.1</b> EditiX</a></li>
+<li class="chapter" data-level="2.1.2" data-path="att-skriva-xml-kod.html"><a href="att-skriva-xml-kod.html#xmlspear"><i class="fa fa-check"></i><b>2.1.2</b> XMLSpear</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="att-skriva-xml-kod.html"><a href="att-skriva-xml-kod.html#borja-koda"><i class="fa fa-check"></i><b>2.2</b> Börja koda!</a></li>
+<li class="chapter" data-level="2.3" data-path="att-skriva-xml-kod.html"><a href="att-skriva-xml-kod.html#kontrollera-koden"><i class="fa fa-check"></i><b>2.3</b> Kontrollera koden</a><ul>
+<li class="chapter" data-level="2.3.1" data-path="att-skriva-xml-kod.html"><a href="att-skriva-xml-kod.html#editix-1"><i class="fa fa-check"></i><b>2.3.1</b> EditiX</a></li>
+<li class="chapter" data-level="2.3.2" data-path="att-skriva-xml-kod.html"><a href="att-skriva-xml-kod.html#xmlspear-1"><i class="fa fa-check"></i><b>2.3.2</b> XMLSpear</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="valformad-xml.html"><a href="valformad-xml.html"><i class="fa fa-check"></i><b>3</b> Välformad XML</a><ul>
+<li class="chapter" data-level="3.1" data-path="valformad-xml.html"><a href="valformad-xml.html#bryt-mot-reglerna"><i class="fa fa-check"></i><b>3.1</b> Bryt mot reglerna!</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="giltig-xml.html"><a href="giltig-xml.html"><i class="fa fa-check"></i><b>4</b> Giltig XML</a><ul>
+<li class="chapter" data-level="4.1" data-path="giltig-xml.html"><a href="giltig-xml.html#bryt-mot-reglerna-1"><i class="fa fa-check"></i><b>4.1</b> Bryt mot reglerna!</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="utoka-filens-innehall.html"><a href="utoka-filens-innehall.html"><i class="fa fa-check"></i><b>5</b> Utöka filens innehåll</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Övning i XML/DTD</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="att-skriva-xml-kod" class="section level1">
+<h1><span class="header-section-number">2</span> Att skriva XML-kod</h1>
+<p>Vi inleder med att skapa en fil för att sedan börja koda XML. Därefter kommer vi att kontrollera att koden är korrekt skriven.</p>
+<div id="skapa-en-xml-fil" class="section level2">
+<h2><span class="header-section-number">2.1</span> Skapa en XML-fil</h2>
+<p>Först skapar du en mapp någonstans på din dator. God praxis är att inte döpa mappar och filer till namn som innehåller å, ä, ö eller mellanslag.</p>
+<p>Därefter öppnar du EditiX eller
+XMLSpear. Om du använder skolans datorer hittar du dessa program via
+<em>Start-menyn -&gt; HB -&gt; Developer Tools</em>.</p>
+<p>Forsättningsvis kommer instruktionerna skilja sig något beroende på vilket av programmen du använder. Håll därför koll på rubrikerna.</p>
+<div id="editix" class="section level3">
+<h3><span class="header-section-number">2.1.1</span> EditiX</h3>
+<p>Först försäkrar du dig om att kodningschemat är UTF-8 genom att klicka
+<em>File -&gt; Encoding -&gt; UTF-8</em>. Sedan skapar du en ny XML-fil genom att
+klicka <em>File -&gt; New document</em>. Välj därefter <em>Standard XML
+document</em> i det lilla fönstret New document och klicka OK.</p>
+<p>Ett nytt dokument öppnas i editorn. På första raden ska det stå:</p>
+<pre class="sourceCode xml"><code class="sourceCode xml"><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></code></pre>
+<p>Filen har dock inte sparats än. Du måste därför döpa filen och bestämma var du vill
+spara den. Klicka <em>File -&gt; Save as</em> och spara filen i den mapp som du har skapat. Kontrollera att XML document (*.xml) är
+valt som filtyp.</p>
+</div>
+<div id="xmlspear" class="section level3">
+<h3><span class="header-section-number">2.1.2</span> XMLSpear</h3>
+<p>Skapa en ny fil genom att klicka <em>File -&gt; New</em>. Välj <em>XML File</em> som
+&quot;Document type&quot; i det lilla fönstret New Document och klicka OK.</p>
+<p>Ett nytt dokument öppnas i editorn. På första raden ska det stå:</p>
+<pre class="sourceCode xml"><code class="sourceCode xml"><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></code></pre>
+<p>Filen har dock inte sparats än. Du måste därför döpa filen och bestämma var du vill
+spara den. Klicka <em>File -&gt; Save as</em>. Det ska då
+komma upp en <em>Save As</em>-ruta. Klicka på knappen <em>Options…</em> och
+kontrollera att <em>File Encoding</em> är satt till UTF-8. Spara filen i den mapp som du har skapat. Kontrollera att <em>XML document (*.xml)</em> är
+valt som filtyp.</p>
+</div>
+</div>
+<div id="borja-koda" class="section level2">
+<h2><span class="header-section-number">2.2</span> Börja koda!</h2>
+<p>Du kan se i fliken ovan dokumentet att den har fått namnet du valt. Om
+du ställer muspekaren på filnamnet så visas också var filen är sparad. På
+så sätt kan du skilja på filer med samma namn sparade i olika mappar
+men du bör för säkerhets skull undvika att döpa flera filer med samma namn.</p>
+<p>Den allra första raden högst upp i dokumentet ska du inte röra, det
+är den så kallade XML-deklarationen. Inte ens ett mellanslag får förekomma före den.</p>
+<p>Kopiera koden nedan och klistra in i din XML-editor. Se till XML-deklarationen inte förekommer två gånger.</p>
+<pre class="sourceCode xml"><code class="sourceCode xml"><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span>
+<span class="kw">&lt;collection&gt;</span>
+  <span class="kw">&lt;book</span><span class="ot"> id=</span><span class="st">&quot;a1&quot;</span><span class="kw">&gt;</span>
+    <span class="kw">&lt;isbn&gt;</span>0385<span class="kw">&lt;/isbn&gt;</span>
+    <span class="kw">&lt;title&gt;</span>The Da Vinchi Code<span class="kw">&lt;/title&gt;</span>
+    <span class="kw">&lt;author</span><span class="ot"> sex=</span><span class="st">&quot;male&quot;</span><span class="kw">&gt;</span>
+    <span class="kw">&lt;gname&gt;</span>Dan<span class="kw">&lt;/gname&gt;</span>
+    <span class="kw">&lt;fname&gt;</span>Brown<span class="kw">&lt;/fname&gt;</span>
+    <span class="kw">&lt;/author&gt;</span>
+    <span class="kw">&lt;pages&gt;</span>454 sidor<span class="kw">&lt;/pages&gt;</span>
+  <span class="kw">&lt;/book&gt;</span>
+<span class="kw">&lt;/collection&gt;</span> </code></pre>
+<p>Spara sedan filen igen. Nu har din XML-fil innehåll men är än så länge inte länkad
+till en DTD.</p>
+<blockquote>
+<p>Läs mer om XML-deklarationen och kommentartaggen på <a href="http://www.w3schools.com/xml/default.asp">w3schools.com's XML tutorial</a>.</p>
+</blockquote>
+</div>
+<div id="kontrollera-koden" class="section level2">
+<h2><span class="header-section-number">2.3</span> Kontrollera koden</h2>
+<p>När man kodar är det viktigt att tänka på att koden är korrekt. Därför ska vi nu se till att den är det.</p>
+<div id="editix-1" class="section level3">
+<h3><span class="header-section-number">2.3.1</span> EditiX</h3>
+<p>Med <code>Ctrl</code> + <code>K</code> aktiveras EditiX:s XML-kontrollfunktion.
+Ser du något felmeddelande av EditiX i nedersta
+delen av editorn? Om så är fallet så bryter du mot någon XML-regel och
+därmed är filen inte välformad.</p>
+<p>Försök att rätta till eventuella problem innan du går till
+nästa steg. Be om hjälp av en lärare eller av kurskamrater om du behöver. Spara och
+tryck <code>Ctrl</code> + <code>K</code> igen för att kontrollera koden på nytt.</p>
+</div>
+<div id="xmlspear-1" class="section level3">
+<h3><span class="header-section-number">2.3.2</span> XMLSpear</h3>
+<p>Nederst under kodfältet finns en flik som heter &quot;Problems&quot;.
+Om allting är som det ska så visas <code>Document is wellformed XML</code>. I annat fall
+dyker felmeddelanden upp där. Om så är fallet så bryter du mot någon
+XML-regel och därmed är filen inte välformad.</p>
+<p>Försök att rätta till eventuella problem innan du går till nästa steg. Be om hjälp av en lärare eller av kurskamrater om du behöver.</p>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="valformad-xml.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
