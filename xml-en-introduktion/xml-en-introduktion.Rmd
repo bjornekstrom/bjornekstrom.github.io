@@ -310,6 +310,8 @@ Inledningsvis är det viktigt att poängtera att specialtecken så som å, ä oc
 
 Följande anvisningar görs i XML-redigeringsprogrammet XMLSpear. Liknande principer gäller för programmen Oxygen och EdiTiX.
 
+Om du har en Chromebook så kan du skriva din XML-kod i ett textredigeringsprogram, t ex Text. Programmet går att hämta på följande länk: https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg. Använd en webbtjänst för att validera välformigheten i koden, t ex http://xmlvalidator.new-studio.org/.
+
 ## Öppna XMLSpear
 
 Bilden nedan visar hur det ser ut när XMLSpear öppnas. I spalten till vänster syns ett dokumentträd. Under det finns en ruta med filinformation. Huvudvyn är den stora rutan till höger. Under den finns en konsol där meddelanden om filen skrivs ut.

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="" xml:lang="">
 <head>
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>5 Skapa en XML-fil | XML: En introduktion</title>
   <meta name="description" content="5 Skapa en XML-fil | XML: En introduktion" />
-  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
   <meta property="og:title" content="5 Skapa en XML-fil | XML: En introduktion" />
   <meta property="og:type" content="book" />
@@ -51,12 +51,13 @@
 
 
 
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 <style type="text/css">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
@@ -65,14 +66,16 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -81,9 +84,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -187,6 +190,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Tanken med denna del av XML-introduktionen är att visa hur det går att skapa en egen XML-fil.</p>
 <p>Inledningsvis är det viktigt att poängtera att specialtecken så som å, ä och ö inte bör finnas med i XML-filers namn. Mellanslag bör också undvikas. Filändelsen ska vara <code>.xml</code>. Detta för att XML-redigeringsprogram lätt ska kunna hitta sökvägen till XML-filen.</p>
 <p>Följande anvisningar görs i XML-redigeringsprogrammet XMLSpear. Liknande principer gäller för programmen Oxygen och EdiTiX.</p>
+<p>Om du har en Chromebook så kan du skriva din XML-kod i ett textredigeringsprogram, t ex Text. Programmet går att hämta på följande länk: <a href="https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg" class="uri">https://chrome.google.com/webstore/detail/text/mmfbcljfglbokpmkimbfghdkjmjhdgbg</a>. Använd en webbtjänst för att validera välformigheten i koden, t ex <a href="http://xmlvalidator.new-studio.org/" class="uri">http://xmlvalidator.new-studio.org/</a>.</p>
 <div id="öppna-xmlspear" class="section level2">
 <h2><span class="header-section-number">5.1</span> Öppna XMLSpear</h2>
 <p>Bilden nedan visar hur det ser ut när XMLSpear öppnas. I spalten till vänster syns ett dokumentträd. Under det finns en ruta med filinformation. Huvudvyn är den stora rutan till höger. Under den finns en konsol där meddelanden om filen skrivs ut.</p>
@@ -245,79 +249,79 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="skapa-ett-rotelement" class="section level2">
 <h2><span class="header-section-number">5.4</span> Skapa ett rotelement</h2>
 <p>Rotelementet vi ska använda heter alltså <code>&lt;books&gt;</code> och skrivs med inledande och avslutande märke:</p>
-<div class="sourceCode" id="cb18"><pre class="sourceCode xml"><code class="sourceCode xml"><a class="sourceLine" id="cb18-1" data-line-number="1"><span class="kw">&lt;books&gt;</span></a>
-<a class="sourceLine" id="cb18-2" data-line-number="2"><span class="kw">&lt;/books&gt;</span></a></code></pre></div>
+<div class="sourceCode" id="cb18"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb18-1"><a href="skapa-en-xml-fil.html#cb18-1"></a><span class="kw">&lt;books&gt;</span></span>
+<span id="cb18-2"><a href="skapa-en-xml-fil.html#cb18-2"></a><span class="kw">&lt;/books&gt;</span></span></code></pre></div>
 <p><img src="img/xmlspear3.png" /></p>
 </div>
 <div id="lägg-till-ytterligare-element" class="section level2">
 <h2><span class="header-section-number">5.5</span> Lägg till ytterligare element</h2>
 <p>Fyll sedan rotelementet med ytterligare ett element som avser <em>en</em> bok. Enligt tabellen ovan heter detta element <code>&lt;book&gt;</code>.</p>
-<div class="sourceCode" id="cb19"><pre class="sourceCode xml"><code class="sourceCode xml"><a class="sourceLine" id="cb19-1" data-line-number="1"><span class="kw">&lt;books&gt;</span></a>
-<a class="sourceLine" id="cb19-2" data-line-number="2">  <span class="kw">&lt;book&gt;</span></a>
-<a class="sourceLine" id="cb19-3" data-line-number="3">  <span class="kw">&lt;/book&gt;</span></a>
-<a class="sourceLine" id="cb19-4" data-line-number="4"><span class="kw">&lt;/books&gt;</span></a></code></pre></div>
+<div class="sourceCode" id="cb19"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb19-1"><a href="skapa-en-xml-fil.html#cb19-1"></a><span class="kw">&lt;books&gt;</span></span>
+<span id="cb19-2"><a href="skapa-en-xml-fil.html#cb19-2"></a>  <span class="kw">&lt;book&gt;</span></span>
+<span id="cb19-3"><a href="skapa-en-xml-fil.html#cb19-3"></a>  <span class="kw">&lt;/book&gt;</span></span>
+<span id="cb19-4"><a href="skapa-en-xml-fil.html#cb19-4"></a><span class="kw">&lt;/books&gt;</span></span></code></pre></div>
 <p><img src="img/xmlspear4.png" /></p>
 <p>Inom <code>&lt;book&gt;</code> ska sedan information om titel, författare, utgivningsår, förlag och förlagsort beskrivas. För enkelhets skulle skriver vi sedan ut varje respektive element inom <code>&lt;book&gt;</code>.</p>
-<div class="sourceCode" id="cb20"><pre class="sourceCode xml"><code class="sourceCode xml"><a class="sourceLine" id="cb20-1" data-line-number="1"><span class="kw">&lt;books&gt;</span></a>
-<a class="sourceLine" id="cb20-2" data-line-number="2">  <span class="kw">&lt;book&gt;</span></a>
-<a class="sourceLine" id="cb20-3" data-line-number="3">    <span class="kw">&lt;title&gt;&lt;/title&gt;</span></a>
-<a class="sourceLine" id="cb20-4" data-line-number="4">    <span class="kw">&lt;author&gt;&lt;/author&gt;</span></a>
-<a class="sourceLine" id="cb20-5" data-line-number="5">    <span class="kw">&lt;pubyear&gt;&lt;/pubyear&gt;</span></a>
-<a class="sourceLine" id="cb20-6" data-line-number="6">    <span class="kw">&lt;publisher&gt;&lt;/publisher&gt;</span></a>
-<a class="sourceLine" id="cb20-7" data-line-number="7">    <span class="kw">&lt;pubplace&gt;&lt;/pubplace&gt;</span></a>
-<a class="sourceLine" id="cb20-8" data-line-number="8">  <span class="kw">&lt;/book&gt;</span></a>
-<a class="sourceLine" id="cb20-9" data-line-number="9"><span class="kw">&lt;/books&gt;</span></a></code></pre></div>
+<div class="sourceCode" id="cb20"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb20-1"><a href="skapa-en-xml-fil.html#cb20-1"></a><span class="kw">&lt;books&gt;</span></span>
+<span id="cb20-2"><a href="skapa-en-xml-fil.html#cb20-2"></a>  <span class="kw">&lt;book&gt;</span></span>
+<span id="cb20-3"><a href="skapa-en-xml-fil.html#cb20-3"></a>    <span class="kw">&lt;title&gt;&lt;/title&gt;</span></span>
+<span id="cb20-4"><a href="skapa-en-xml-fil.html#cb20-4"></a>    <span class="kw">&lt;author&gt;&lt;/author&gt;</span></span>
+<span id="cb20-5"><a href="skapa-en-xml-fil.html#cb20-5"></a>    <span class="kw">&lt;pubyear&gt;&lt;/pubyear&gt;</span></span>
+<span id="cb20-6"><a href="skapa-en-xml-fil.html#cb20-6"></a>    <span class="kw">&lt;publisher&gt;&lt;/publisher&gt;</span></span>
+<span id="cb20-7"><a href="skapa-en-xml-fil.html#cb20-7"></a>    <span class="kw">&lt;pubplace&gt;&lt;/pubplace&gt;</span></span>
+<span id="cb20-8"><a href="skapa-en-xml-fil.html#cb20-8"></a>  <span class="kw">&lt;/book&gt;</span></span>
+<span id="cb20-9"><a href="skapa-en-xml-fil.html#cb20-9"></a><span class="kw">&lt;/books&gt;</span></span></code></pre></div>
 <p><img src="img/xmlspear5.png" /></p>
 </div>
 <div id="lägg-till-bibliografisk-information" class="section level2">
 <h2><span class="header-section-number">5.6</span> Lägg till bibliografisk information</h2>
 <p>Härnäst går det att fylla elementen med information om en specifik bok. Som exempel används här Libris-posten för <a href="Karin%20Boyes%20*Moln*,%20utgiven%201922">http://libris.kb.se/bib/29291</a>.</p>
-<div class="sourceCode" id="cb21"><pre class="sourceCode xml"><code class="sourceCode xml"><a class="sourceLine" id="cb21-1" data-line-number="1"><span class="kw">&lt;books&gt;</span></a>
-<a class="sourceLine" id="cb21-2" data-line-number="2">  <span class="kw">&lt;book&gt;</span></a>
-<a class="sourceLine" id="cb21-3" data-line-number="3">    <span class="kw">&lt;title&gt;</span>Moln : dikter<span class="kw">&lt;/title&gt;</span></a>
-<a class="sourceLine" id="cb21-4" data-line-number="4">    <span class="kw">&lt;author&gt;</span>Karin Boye<span class="kw">&lt;/author&gt;</span></a>
-<a class="sourceLine" id="cb21-5" data-line-number="5">    <span class="kw">&lt;pubyear&gt;</span>1922<span class="kw">&lt;/pubyear&gt;</span></a>
-<a class="sourceLine" id="cb21-6" data-line-number="6">    <span class="kw">&lt;publisher&gt;</span>Bonnier<span class="kw">&lt;/publisher&gt;</span></a>
-<a class="sourceLine" id="cb21-7" data-line-number="7">    <span class="kw">&lt;pubplace&gt;</span>Stockholm<span class="kw">&lt;/pubplace&gt;</span></a>
-<a class="sourceLine" id="cb21-8" data-line-number="8">  <span class="kw">&lt;/book&gt;</span></a>
-<a class="sourceLine" id="cb21-9" data-line-number="9"><span class="kw">&lt;/books&gt;</span></a></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb21-1"><a href="skapa-en-xml-fil.html#cb21-1"></a><span class="kw">&lt;books&gt;</span></span>
+<span id="cb21-2"><a href="skapa-en-xml-fil.html#cb21-2"></a>  <span class="kw">&lt;book&gt;</span></span>
+<span id="cb21-3"><a href="skapa-en-xml-fil.html#cb21-3"></a>    <span class="kw">&lt;title&gt;</span>Moln : dikter<span class="kw">&lt;/title&gt;</span></span>
+<span id="cb21-4"><a href="skapa-en-xml-fil.html#cb21-4"></a>    <span class="kw">&lt;author&gt;</span>Karin Boye<span class="kw">&lt;/author&gt;</span></span>
+<span id="cb21-5"><a href="skapa-en-xml-fil.html#cb21-5"></a>    <span class="kw">&lt;pubyear&gt;</span>1922<span class="kw">&lt;/pubyear&gt;</span></span>
+<span id="cb21-6"><a href="skapa-en-xml-fil.html#cb21-6"></a>    <span class="kw">&lt;publisher&gt;</span>Bonnier<span class="kw">&lt;/publisher&gt;</span></span>
+<span id="cb21-7"><a href="skapa-en-xml-fil.html#cb21-7"></a>    <span class="kw">&lt;pubplace&gt;</span>Stockholm<span class="kw">&lt;/pubplace&gt;</span></span>
+<span id="cb21-8"><a href="skapa-en-xml-fil.html#cb21-8"></a>  <span class="kw">&lt;/book&gt;</span></span>
+<span id="cb21-9"><a href="skapa-en-xml-fil.html#cb21-9"></a><span class="kw">&lt;/books&gt;</span></span></code></pre></div>
 <p><img src="img/xmlspear6.png" /></p>
 <p>Detta utgör en enkel bibliografisk post. Filen är dessutom välformad, vilket syns i konsolen.</p>
 </div>
 <div id="icke-välformad-xml" class="section level2">
 <h2><span class="header-section-number">5.7</span> Icke välformad XML</h2>
 <p>Som tidigare nämnt reagerar XML-redigeraren på inkonsekvent användande av märken. Om ett av märkena i ett element skrivs med versaler så genereras ett felmeddelande i konsolen.</p>
-<div class="sourceCode" id="cb22"><pre class="sourceCode xml"><code class="sourceCode xml"><a class="sourceLine" id="cb22-1" data-line-number="1"><span class="kw">&lt;books&gt;</span></a>
-<a class="sourceLine" id="cb22-2" data-line-number="2">  <span class="kw">&lt;book&gt;</span></a>
-<a class="sourceLine" id="cb22-3" data-line-number="3">    <span class="kw">&lt;title&gt;</span>Moln : dikter<span class="kw">&lt;/title&gt;</span></a>
-<a class="sourceLine" id="cb22-4" data-line-number="4">    <span class="kw">&lt;author&gt;</span>Karin Boye<span class="kw">&lt;/author&gt;</span></a>
-<a class="sourceLine" id="cb22-5" data-line-number="5">    <span class="kw">&lt;pubyear&gt;</span>1922<span class="kw">&lt;/pubyear&gt;</span></a>
-<a class="sourceLine" id="cb22-6" data-line-number="6">    <span class="kw">&lt;publisher&gt;</span>Bonnier<span class="kw">&lt;/publisher&gt;</span></a>
-<a class="sourceLine" id="cb22-7" data-line-number="7">    <span class="kw">&lt;pubplace&gt;</span>Stockholm<span class="kw">&lt;/pubplace&gt;</span></a>
-<a class="sourceLine" id="cb22-8" data-line-number="8">  <span class="kw">&lt;/BOOK&gt;</span> <span class="co">&lt;!-- Inkonsekvent benämning av märke i &lt;book&gt;-elementet. --&gt;</span></a>
-<a class="sourceLine" id="cb22-9" data-line-number="9"><span class="kw">&lt;/books&gt;</span></a></code></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb22-1"><a href="skapa-en-xml-fil.html#cb22-1"></a><span class="kw">&lt;books&gt;</span></span>
+<span id="cb22-2"><a href="skapa-en-xml-fil.html#cb22-2"></a>  <span class="kw">&lt;book&gt;</span></span>
+<span id="cb22-3"><a href="skapa-en-xml-fil.html#cb22-3"></a>    <span class="kw">&lt;title&gt;</span>Moln : dikter<span class="kw">&lt;/title&gt;</span></span>
+<span id="cb22-4"><a href="skapa-en-xml-fil.html#cb22-4"></a>    <span class="kw">&lt;author&gt;</span>Karin Boye<span class="kw">&lt;/author&gt;</span></span>
+<span id="cb22-5"><a href="skapa-en-xml-fil.html#cb22-5"></a>    <span class="kw">&lt;pubyear&gt;</span>1922<span class="kw">&lt;/pubyear&gt;</span></span>
+<span id="cb22-6"><a href="skapa-en-xml-fil.html#cb22-6"></a>    <span class="kw">&lt;publisher&gt;</span>Bonnier<span class="kw">&lt;/publisher&gt;</span></span>
+<span id="cb22-7"><a href="skapa-en-xml-fil.html#cb22-7"></a>    <span class="kw">&lt;pubplace&gt;</span>Stockholm<span class="kw">&lt;/pubplace&gt;</span></span>
+<span id="cb22-8"><a href="skapa-en-xml-fil.html#cb22-8"></a>  <span class="kw">&lt;/BOOK&gt;</span> <span class="co">&lt;!-- Inkonsekvent benämning av märke i &lt;book&gt;-elementet. --&gt;</span></span>
+<span id="cb22-9"><a href="skapa-en-xml-fil.html#cb22-9"></a><span class="kw">&lt;/books&gt;</span></span></code></pre></div>
 <p><img src="img/xmlspear7.png" /></p>
-<p><code>[10:5]: The element type &quot;book&quot; must be terminated by the matching end-tag &quot;&lt;/book&gt;&quot;.</code></p>
+<p><code>[10:5]: The element type "book" must be terminated by the matching end-tag "&lt;/book&gt;".</code></p>
 </div>
 <div id="lägg-till-ytterligare-en-bok" class="section level2">
 <h2><span class="header-section-number">5.8</span> Lägg till ytterligare en bok</h2>
 <p>För att lägga till ytterligare en bok i vår förteckning över bibliografiska poster så används samma element för uppmärkning men med annat innehåll. Detta exemplifieras här med Libris-posten för <a href="http://libris.kb.se/bib/9814160">Bret Easton Ellis <em>Lunar Park</em>, utgiven 2005</a>, som läggs i ett separat <code>&lt;book&gt;</code>-element under Boyes bok.</p>
-<div class="sourceCode" id="cb23"><pre class="sourceCode xml"><code class="sourceCode xml"><a class="sourceLine" id="cb23-1" data-line-number="1"><span class="kw">&lt;books&gt;</span></a>
-<a class="sourceLine" id="cb23-2" data-line-number="2">  <span class="kw">&lt;book&gt;</span></a>
-<a class="sourceLine" id="cb23-3" data-line-number="3">    <span class="kw">&lt;title&gt;</span>Moln : dikter<span class="kw">&lt;/title&gt;</span></a>
-<a class="sourceLine" id="cb23-4" data-line-number="4">    <span class="kw">&lt;author&gt;</span>Karin Boye<span class="kw">&lt;/author&gt;</span></a>
-<a class="sourceLine" id="cb23-5" data-line-number="5">    <span class="kw">&lt;pubyear&gt;</span>1922<span class="kw">&lt;/pubyear&gt;</span></a>
-<a class="sourceLine" id="cb23-6" data-line-number="6">    <span class="kw">&lt;publisher&gt;</span>Bonnier<span class="kw">&lt;/publisher&gt;</span></a>
-<a class="sourceLine" id="cb23-7" data-line-number="7">    <span class="kw">&lt;pubplace&gt;</span>Stockholm<span class="kw">&lt;/pubplace&gt;</span></a>
-<a class="sourceLine" id="cb23-8" data-line-number="8">  <span class="kw">&lt;/book&gt;</span></a>
-<a class="sourceLine" id="cb23-9" data-line-number="9">  <span class="kw">&lt;book&gt;</span></a>
-<a class="sourceLine" id="cb23-10" data-line-number="10">    <span class="kw">&lt;title&gt;</span>Lunar Park<span class="kw">&lt;/title&gt;</span></a>
-<a class="sourceLine" id="cb23-11" data-line-number="11">    <span class="kw">&lt;author&gt;</span>Bret Easton Ellis<span class="kw">&lt;/author&gt;</span></a>
-<a class="sourceLine" id="cb23-12" data-line-number="12">    <span class="kw">&lt;pubyear&gt;</span>2005<span class="kw">&lt;/pubyear&gt;</span></a>
-<a class="sourceLine" id="cb23-13" data-line-number="13">    <span class="kw">&lt;publisher&gt;</span>Knopf<span class="kw">&lt;/publisher&gt;</span></a>
-<a class="sourceLine" id="cb23-14" data-line-number="14">    <span class="kw">&lt;pubplace&gt;</span>New York<span class="kw">&lt;/pubplace&gt;</span></a>
-<a class="sourceLine" id="cb23-15" data-line-number="15">  <span class="kw">&lt;/book&gt;</span></a>
-<a class="sourceLine" id="cb23-16" data-line-number="16"><span class="kw">&lt;/books&gt;</span></a></code></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb23-1"><a href="skapa-en-xml-fil.html#cb23-1"></a><span class="kw">&lt;books&gt;</span></span>
+<span id="cb23-2"><a href="skapa-en-xml-fil.html#cb23-2"></a>  <span class="kw">&lt;book&gt;</span></span>
+<span id="cb23-3"><a href="skapa-en-xml-fil.html#cb23-3"></a>    <span class="kw">&lt;title&gt;</span>Moln : dikter<span class="kw">&lt;/title&gt;</span></span>
+<span id="cb23-4"><a href="skapa-en-xml-fil.html#cb23-4"></a>    <span class="kw">&lt;author&gt;</span>Karin Boye<span class="kw">&lt;/author&gt;</span></span>
+<span id="cb23-5"><a href="skapa-en-xml-fil.html#cb23-5"></a>    <span class="kw">&lt;pubyear&gt;</span>1922<span class="kw">&lt;/pubyear&gt;</span></span>
+<span id="cb23-6"><a href="skapa-en-xml-fil.html#cb23-6"></a>    <span class="kw">&lt;publisher&gt;</span>Bonnier<span class="kw">&lt;/publisher&gt;</span></span>
+<span id="cb23-7"><a href="skapa-en-xml-fil.html#cb23-7"></a>    <span class="kw">&lt;pubplace&gt;</span>Stockholm<span class="kw">&lt;/pubplace&gt;</span></span>
+<span id="cb23-8"><a href="skapa-en-xml-fil.html#cb23-8"></a>  <span class="kw">&lt;/book&gt;</span></span>
+<span id="cb23-9"><a href="skapa-en-xml-fil.html#cb23-9"></a>  <span class="kw">&lt;book&gt;</span></span>
+<span id="cb23-10"><a href="skapa-en-xml-fil.html#cb23-10"></a>    <span class="kw">&lt;title&gt;</span>Lunar Park<span class="kw">&lt;/title&gt;</span></span>
+<span id="cb23-11"><a href="skapa-en-xml-fil.html#cb23-11"></a>    <span class="kw">&lt;author&gt;</span>Bret Easton Ellis<span class="kw">&lt;/author&gt;</span></span>
+<span id="cb23-12"><a href="skapa-en-xml-fil.html#cb23-12"></a>    <span class="kw">&lt;pubyear&gt;</span>2005<span class="kw">&lt;/pubyear&gt;</span></span>
+<span id="cb23-13"><a href="skapa-en-xml-fil.html#cb23-13"></a>    <span class="kw">&lt;publisher&gt;</span>Knopf<span class="kw">&lt;/publisher&gt;</span></span>
+<span id="cb23-14"><a href="skapa-en-xml-fil.html#cb23-14"></a>    <span class="kw">&lt;pubplace&gt;</span>New York<span class="kw">&lt;/pubplace&gt;</span></span>
+<span id="cb23-15"><a href="skapa-en-xml-fil.html#cb23-15"></a>  <span class="kw">&lt;/book&gt;</span></span>
+<span id="cb23-16"><a href="skapa-en-xml-fil.html#cb23-16"></a><span class="kw">&lt;/books&gt;</span></span></code></pre></div>
 <p><img src="img/xmlspear8.png" /></p>
 </div>
 <div id="avslutningsvis" class="section level2">
@@ -352,12 +356,11 @@ gitbook.start({
 "github": false,
 "facebook": true,
 "twitter": true,
-"google": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,
 "vk": false,
-"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
 "theme": "white",
@@ -369,6 +372,10 @@ gitbook.start({
 "text": null
 },
 "history": {
+"link": null,
+"text": null
+},
+"view": {
 "link": null,
 "text": null
 },
