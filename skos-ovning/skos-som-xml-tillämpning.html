@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>2 SKOS som XML-tillämpning | Introduktion till SKOS</title>
+  <meta name="description" content="2 SKOS som XML-tillämpning | Introduktion till SKOS" />
+  <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="2 SKOS som XML-tillämpning | Introduktion till SKOS" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="2 SKOS som XML-tillämpning | Introduktion till SKOS" />
+  
+  
+  
+
+<meta name="author" content="Mikael Gunnarsson" />
+<meta name="author" content="Maria Idebrant" />
+<meta name="author" content="Björn Ekström" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="skos-introduktionsövningar.html"/>
+<link rel="next" href="koncept.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="skos-introduktionsövningar.html"><a href="skos-introduktionsövningar.html"><i class="fa fa-check"></i><b>1</b> SKOS - Introduktionsövningar</a></li>
+<li class="chapter" data-level="2" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html"><i class="fa fa-check"></i><b>2</b> SKOS som XML-tillämpning</a><ul>
+<li class="chapter" data-level="2.1" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#xsl--och-dtd-filer"><i class="fa fa-check"></i><b>2.1</b> XSL- och DTD-filer</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#hänvisning-till-xsl"><i class="fa fa-check"></i><b>2.1.1</b> Hänvisning till XSL</a></li>
+<li class="chapter" data-level="2.1.2" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#hänvisning-till-dtd"><i class="fa fa-check"></i><b>2.1.2</b> Hänvisning till DTD</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#giltig-skos-och-validering"><i class="fa fa-check"></i><b>2.2</b> Giltig SKOS och validering</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-oxygen"><i class="fa fa-check"></i><b>2.2.1</b> Validering i Oxygen</a></li>
+<li class="chapter" data-level="2.2.2" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-editix"><i class="fa fa-check"></i><b>2.2.2</b> Validering i EditiX</a></li>
+<li class="chapter" data-level="2.2.3" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-xmlspear"><i class="fa fa-check"></i><b>2.2.3</b> Validering i XMLSpear</a></li>
+<li class="chapter" data-level="2.2.4" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-på-en-chromebook"><i class="fa fa-check"></i><b>2.2.4</b> Validering på en Chromebook</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="koncept.html"><a href="koncept.html"><i class="fa fa-check"></i><b>3</b> Koncept</a></li>
+<li class="chapter" data-level="4" data-path="konceptens-föredragna-namn-och-synonymer.html"><a href="konceptens-föredragna-namn-och-synonymer.html"><i class="fa fa-check"></i><b>4</b> Konceptens föredragna namn och synonymer</a></li>
+<li class="chapter" data-level="5" data-path="semantiska-relationer.html"><a href="semantiska-relationer.html"><i class="fa fa-check"></i><b>5</b> Semantiska relationer</a><ul>
+<li class="chapter" data-level="5.1" data-path="semantiska-relationer.html"><a href="semantiska-relationer.html#bredare-relation-broader"><i class="fa fa-check"></i><b>5.1</b> Bredare relation: <code>broader</code></a></li>
+<li class="chapter" data-level="5.2" data-path="semantiska-relationer.html"><a href="semantiska-relationer.html#snävare-relation-narrower"><i class="fa fa-check"></i><b>5.2</b> Snävare relation: <code>narrower</code></a></li>
+<li class="chapter" data-level="5.3" data-path="semantiska-relationer.html"><a href="semantiska-relationer.html#associativa-relationer-related"><i class="fa fa-check"></i><b>5.3</b> Associativa relationer: <code>related</code></a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="definitioner-med-mera.html"><a href="definitioner-med-mera.html"><i class="fa fa-check"></i><b>6</b> Definitioner med mera</a></li>
+<li class="chapter" data-level="7" data-path="beskriv-din-vokabulär.html"><a href="beskriv-din-vokabulär.html"><i class="fa fa-check"></i><b>7</b> Beskriv din vokabulär</a></li>
+<li class="chapter" data-level="8" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html"><i class="fa fa-check"></i><b>8</b> Se på filen i webbläsaren</a><ul>
+<li class="chapter" data-level="8.1" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-alfabetisk-listform"><i class="fa fa-check"></i><b>8.1</b> Visualisera i alfabetisk listform</a></li>
+<li class="chapter" data-level="8.2" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-hierarkisk-trädform"><i class="fa fa-check"></i><b>8.2</b> Visualisera i hierarkisk trädform</a></li>
+<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-på-en-chromebook"><i class="fa fa-check"></i><b>8.3</b> Visualisera på en Chromebook</a></li>
+<li class="chapter" data-level="8.4" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.4</b> Använd båda stilmallarna</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="avslutningsvis.html"><a href="avslutningsvis.html"><i class="fa fa-check"></i><b>9</b> Avslutningsvis</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduktion till SKOS</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="skos-som-xml-tillämpning" class="section level1">
+<h1><span class="header-section-number">2</span> SKOS som XML-tillämpning</h1>
+<p>Precis som alla XML-dokument skall en SKOS inledas med en XML-deklaration som talar om vilken version av XML vi har att göra med, och vilken teckenkodning som valts.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb1-1"><a href="skos-som-xml-tillämpning.html#cb1-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span></code></pre></div>
+<p>Spara därefter SKOS-filen någonstans där du hittar den igen. SKOS-filen skall ha filändelsen <code>.xml</code> och dess namn får inte innehålla mellanslag samt endast tecken ur sekvenserna 0-9, a-z och A-Z. Om du arbetar i EditiX eller XMLSpear kommer programmet att spara med UTF-8 som teckenkodning automatiskt.</p>
+<p>Därefter skall SKOSen bäddas in i ett rotelement som utgörs av elementet <code>RDF</code>, eftersom SKOS också är en delmängd av RDF. Rotelementet skall också ha två namnrymdsdeklarationer (nedan illustrerat som <code>xmlns:rdf</code> respektive <code>xmlns:skos</code>) som knyter SKOS-instansen till definitionen av både RDF och SKOS. I det fortsatta, när det talas om element och attribut, talas det om dem utan att inkludera namnrymdsprefixet.</p>
+<p>Nedan följer ett kodavsnitt med XML-deklaration och ett rotelement med namnrymdsdeklarationerna RDF och SKOS.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb2-1"><a href="skos-som-xml-tillämpning.html#cb2-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
+<span id="cb2-2"><a href="skos-som-xml-tillämpning.html#cb2-2"></a><span class="kw">&lt;rdf:RDF</span> </span>
+<span id="cb2-3"><a href="skos-som-xml-tillämpning.html#cb2-3"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
+<span id="cb2-4"><a href="skos-som-xml-tillämpning.html#cb2-4"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb2-5"><a href="skos-som-xml-tillämpning.html#cb2-5"></a>  </span>
+<span id="cb2-6"><a href="skos-som-xml-tillämpning.html#cb2-6"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
+<div id="xsl--och-dtd-filer" class="section level2">
+<h2><span class="header-section-number">2.1</span> XSL- och DTD-filer</h2>
+<p>För att genomföra uppgiften behöver vi länka till externa filer.</p>
+<p>Vi ska först länka till en stilmall i form av en av två XSL-filer (eXtensible Stylesheet Language) som ger vokabulären en presentation - det vill säga transformerar SKOS-filen till XHTML. Dessa finns finns <a href="https://github.com/Mikael61/Mikael61.github.io">upplagda på Github</a> och kan länkas till direkt.</p>
+<p>Därefter ska vi länka till en DTD-fil (Document Type Definition) som specificerar vilka element och attribut som ska användas i XML-tillämpningen av SKOS. Denna hämtas <a href="https://github.com/Mikael61/Skos">ifrån Github</a> eller via Pingpong-modulen (under Dokument). Spara DTD-filen i samma mapp som den XML-fil som ni arbetar med.</p>
+<div id="hänvisning-till-xsl" class="section level3">
+<h3><span class="header-section-number">2.1.1</span> Hänvisning till XSL</h3>
+<p>Eftersom XSL-filerna finns uppladdade på webben så kan dessa hänvisas till direkt. Filerna ligger i följande sökväg: <code>https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/</code> och heter <code>skos-styleList.xsl</code> respektive <code>skos-styleHie.xsl</code>.</p>
+<p>Länka därför till en av filerna (det går inte att länka till båda samtidigt) genom att lägga till kodraden under XML-deklarationen.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb3-1"><a href="skos-som-xml-tillämpning.html#cb3-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
+<span id="cb3-2"><a href="skos-som-xml-tillämpning.html#cb3-2"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span>
+<span id="cb3-3"><a href="skos-som-xml-tillämpning.html#cb3-3"></a><span class="kw">&lt;rdf:RDF</span> </span>
+<span id="cb3-4"><a href="skos-som-xml-tillämpning.html#cb3-4"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
+<span id="cb3-5"><a href="skos-som-xml-tillämpning.html#cb3-5"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb3-6"><a href="skos-som-xml-tillämpning.html#cb3-6"></a>  </span>
+<span id="cb3-7"><a href="skos-som-xml-tillämpning.html#cb3-7"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
+</div>
+<div id="hänvisning-till-dtd" class="section level3">
+<h3><span class="header-section-number">2.1.2</span> Hänvisning till DTD</h3>
+<p>Slutligen infogar du också en länk till en DTD-fil, som du också måste spara i samma lokala mapp som övriga filer. Till skillnad från de flesta andra XML-tillämpningar finns inte SKOS definierat som en DTD- eller ett XML-schema, vilket dock inte betyder att SKOS inte är väldefinierat. <a href="https://www.w3.org/">World Wide Web Consortiums (W3C)</a> rekommendationer och övrig dokumentation skall ses som normativ och det är vanligen dit man vänder sig för att fastställa vad som är korrekt och inkorrekt.</p>
+<p>Länka till DTD-filen genom att lägga till kodraden under hänvisningen till XSL-filen.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb4-1"><a href="skos-som-xml-tillämpning.html#cb4-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
+<span id="cb4-2"><a href="skos-som-xml-tillämpning.html#cb4-2"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span>
+<span id="cb4-3"><a href="skos-som-xml-tillämpning.html#cb4-3"></a><span class="dt">&lt;!DOCTYPE </span>rdf:RDF SYSTEM &quot;skos.dtd&quot;<span class="dt">&gt;</span></span>
+<span id="cb4-4"><a href="skos-som-xml-tillämpning.html#cb4-4"></a><span class="kw">&lt;rdf:RDF</span> </span>
+<span id="cb4-5"><a href="skos-som-xml-tillämpning.html#cb4-5"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
+<span id="cb4-6"><a href="skos-som-xml-tillämpning.html#cb4-6"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb4-7"><a href="skos-som-xml-tillämpning.html#cb4-7"></a>  </span>
+<span id="cb4-8"><a href="skos-som-xml-tillämpning.html#cb4-8"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
+<div id="dtd-och-chromebook" class="section level4">
+<h4><span class="header-section-number">2.1.2.1</span> DTD och Chromebook</h4>
+<p>Om du har en Chromebook så kan du inte validera XML-koden i textredigeringsprogrammet. Detta innebär att du får använda en webbtjänst (se 2.2.4) För att valideringen ska bli korrekt får du därför bädda in DTD-filens beståndsdelar direkt i XML-filen. Använd därför denna kod istället:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb5-1"><a href="skos-som-xml-tillämpning.html#cb5-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
+<span id="cb5-2"><a href="skos-som-xml-tillämpning.html#cb5-2"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span>
+<span id="cb5-3"><a href="skos-som-xml-tillämpning.html#cb5-3"></a></span>
+<span id="cb5-4"><a href="skos-som-xml-tillämpning.html#cb5-4"></a><span class="dt">&lt;!DOCTYPE </span>rdf:RDF <span class="dt">[</span></span>
+<span id="cb5-5"><a href="skos-som-xml-tillämpning.html#cb5-5"></a><span class="dt">&lt;!ELEMENT</span> rdf:RDF (skos:ConceptScheme?,skos:Concept*)<span class="dt">&gt;</span></span>
+<span id="cb5-6"><a href="skos-som-xml-tillämpning.html#cb5-6"></a><span class="dt">&lt;!ATTLIST</span> rdf:RDF xmlns:dc CDATA #IMPLIED</span>
+<span id="cb5-7"><a href="skos-som-xml-tillämpning.html#cb5-7"></a>xmlns:skos CDATA #IMPLIED</span>
+<span id="cb5-8"><a href="skos-som-xml-tillämpning.html#cb5-8"></a>xmlns:rdf CDATA #IMPLIED<span class="dt">&gt;</span></span>
+<span id="cb5-9"><a href="skos-som-xml-tillämpning.html#cb5-9"></a></span>
+<span id="cb5-10"><a href="skos-som-xml-tillämpning.html#cb5-10"></a><span class="dt">&lt;!ELEMENT</span> skos:Concept (skos:prefLabel+, (skos:broader | skos:narrower | skos:broaderTransitive | skos:narrowerTransitive | skos:related | skos:definition | skos:scopeNote | skos:example</span>
+<span id="cb5-11"><a href="skos-som-xml-tillämpning.html#cb5-11"></a>| skos:altLabel | skos:hiddenLabel)*)<span class="dt">&gt;</span></span>
+<span id="cb5-12"><a href="skos-som-xml-tillämpning.html#cb5-12"></a><span class="dt">&lt;!ATTLIST</span> skos:Concept rdf:about CDATA #REQUIRED<span class="dt">&gt;</span></span>
+<span id="cb5-13"><a href="skos-som-xml-tillämpning.html#cb5-13"></a></span>
+<span id="cb5-14"><a href="skos-som-xml-tillämpning.html#cb5-14"></a><span class="dt">&lt;!ELEMENT</span> skos:broader EMPTY<span class="dt">&gt;</span></span>
+<span id="cb5-15"><a href="skos-som-xml-tillämpning.html#cb5-15"></a><span class="dt">&lt;!ATTLIST</span> skos:broader rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
+<span id="cb5-16"><a href="skos-som-xml-tillämpning.html#cb5-16"></a><span class="dt">&lt;!ELEMENT</span> skos:narrower EMPTY<span class="dt">&gt;</span></span>
+<span id="cb5-17"><a href="skos-som-xml-tillämpning.html#cb5-17"></a><span class="dt">&lt;!ATTLIST</span> skos:narrower rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
+<span id="cb5-18"><a href="skos-som-xml-tillämpning.html#cb5-18"></a><span class="dt">&lt;!ELEMENT</span> skos:narrowerTransitive EMPTY<span class="dt">&gt;</span></span>
+<span id="cb5-19"><a href="skos-som-xml-tillämpning.html#cb5-19"></a><span class="dt">&lt;!ATTLIST</span> skos:narrowerTransitive rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
+<span id="cb5-20"><a href="skos-som-xml-tillämpning.html#cb5-20"></a><span class="dt">&lt;!ELEMENT</span> skos:broaderTransitive EMPTY<span class="dt">&gt;</span></span>
+<span id="cb5-21"><a href="skos-som-xml-tillämpning.html#cb5-21"></a><span class="dt">&lt;!ATTLIST</span> skos:broaderTransitive rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
+<span id="cb5-22"><a href="skos-som-xml-tillämpning.html#cb5-22"></a><span class="dt">&lt;!ELEMENT</span> skos:related EMPTY<span class="dt">&gt;</span></span>
+<span id="cb5-23"><a href="skos-som-xml-tillämpning.html#cb5-23"></a><span class="dt">&lt;!ATTLIST</span> skos:related rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
+<span id="cb5-24"><a href="skos-som-xml-tillämpning.html#cb5-24"></a><span class="dt">&lt;!ELEMENT</span> skos:definition (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-25"><a href="skos-som-xml-tillämpning.html#cb5-25"></a><span class="dt">&lt;!ATTLIST</span> skos:definition rdf:resource CDATA #IMPLIED<span class="dt">&gt;</span></span>
+<span id="cb5-26"><a href="skos-som-xml-tillämpning.html#cb5-26"></a><span class="dt">&lt;!ELEMENT</span> skos:scopeNote (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-27"><a href="skos-som-xml-tillämpning.html#cb5-27"></a><span class="dt">&lt;!ELEMENT</span> skos:example (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-28"><a href="skos-som-xml-tillämpning.html#cb5-28"></a><span class="dt">&lt;!ATTLIST</span> skos:example rdf:resource CDATA #IMPLIED<span class="dt">&gt;</span></span>
+<span id="cb5-29"><a href="skos-som-xml-tillämpning.html#cb5-29"></a><span class="dt">&lt;!ELEMENT</span> skos:prefLabel (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-30"><a href="skos-som-xml-tillämpning.html#cb5-30"></a><span class="dt">&lt;!ATTLIST</span> skos:prefLabel xml:lang CDATA #IMPLIED<span class="dt">&gt;</span></span>
+<span id="cb5-31"><a href="skos-som-xml-tillämpning.html#cb5-31"></a><span class="dt">&lt;!ELEMENT</span> skos:altLabel (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-32"><a href="skos-som-xml-tillämpning.html#cb5-32"></a><span class="dt">&lt;!ATTLIST</span> skos:altLabel xml:lang CDATA #IMPLIED<span class="dt">&gt;</span></span>
+<span id="cb5-33"><a href="skos-som-xml-tillämpning.html#cb5-33"></a><span class="dt">&lt;!ELEMENT</span> skos:hiddenLabel (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-34"><a href="skos-som-xml-tillämpning.html#cb5-34"></a><span class="dt">&lt;!ATTLIST</span> skos:hiddenLabel xml:lang CDATA #IMPLIED<span class="dt">&gt;</span></span>
+<span id="cb5-35"><a href="skos-som-xml-tillämpning.html#cb5-35"></a></span>
+<span id="cb5-36"><a href="skos-som-xml-tillämpning.html#cb5-36"></a><span class="dt">&lt;!ELEMENT</span> skos:ConceptScheme (dc:creator | dc:title | dc:description)*<span class="dt">&gt;</span></span>
+<span id="cb5-37"><a href="skos-som-xml-tillämpning.html#cb5-37"></a><span class="dt">&lt;!ATTLIST</span> skos:ConceptScheme rdf:about CDATA #REQUIRED<span class="dt">&gt;</span></span>
+<span id="cb5-38"><a href="skos-som-xml-tillämpning.html#cb5-38"></a></span>
+<span id="cb5-39"><a href="skos-som-xml-tillämpning.html#cb5-39"></a><span class="dt">&lt;!ELEMENT</span> dc:creator (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-40"><a href="skos-som-xml-tillämpning.html#cb5-40"></a><span class="dt">&lt;!ELEMENT</span> dc:title (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-41"><a href="skos-som-xml-tillämpning.html#cb5-41"></a><span class="dt">&lt;!ELEMENT</span> dc:description (#PCDATA)<span class="dt">&gt;</span></span>
+<span id="cb5-42"><a href="skos-som-xml-tillämpning.html#cb5-42"></a><span class="dt">]&gt;</span></span>
+<span id="cb5-43"><a href="skos-som-xml-tillämpning.html#cb5-43"></a>  </span>
+<span id="cb5-44"><a href="skos-som-xml-tillämpning.html#cb5-44"></a>  </span>
+<span id="cb5-45"><a href="skos-som-xml-tillämpning.html#cb5-45"></a><span class="kw">&lt;rdf:RDF</span> </span>
+<span id="cb5-46"><a href="skos-som-xml-tillämpning.html#cb5-46"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
+<span id="cb5-47"><a href="skos-som-xml-tillämpning.html#cb5-47"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb5-48"><a href="skos-som-xml-tillämpning.html#cb5-48"></a>  </span>
+<span id="cb5-49"><a href="skos-som-xml-tillämpning.html#cb5-49"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
+</div>
+</div>
+</div>
+<div id="giltig-skos-och-validering" class="section level2">
+<h2><span class="header-section-number">2.2</span> Giltig SKOS och validering</h2>
+<p>Det är viktigt att komma ihåg att även om det är lite osäkert om man kan tala om giltig och ogiltig SKOS, så kan man i alla fall tala om välformad och icke välformad SKOS. Avsaknaden av en DTD har visat sig vara problematisk i undervisningssammanhang, därför har en sådan konstruerats för den här kursen. Tillägget av en DTD möjliggör att du får utvidgat stöd av EditiX eller XMLSpear när du jobbar med att utveckla din SKOS, så att du får felmeddelanden när du t ex placerar ett <code>skos:broader</code>-element direkt under rotelementet <code>rdf:RDF</code>.</p>
+<p>Validering innebär alltså att man ser till att XML-koden är välformad och giltig.</p>
+<ul>
+<li><p>Välformighet innebär att filen följer XML-regler, specificerade i t ex en DTD-fil (vad som får och ska anges i tesaurusen).</p></li>
+<li><p>Giltighet innebär att filen följer reglerna för den aktuella XML-tillämpningen, i vårt fall SKOS (hur data anges i tesaurusen).</p></li>
+</ul>
+<div id="validering-i-oxygen" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> Validering i Oxygen</h3>
+<ul>
+<li><code>Ctrl + W</code> för välformighet</li>
+<li><code>Ctrl + V</code> för giltighet
+(<code>Cmd + W/V</code> på Mac)</li>
+</ul>
+</div>
+<div id="validering-i-editix" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> Validering i EditiX</h3>
+<ul>
+<li><code>Ctrl + K</code></li>
+<li>(<code>Cmd + K</code> på Mac)</li>
+</ul>
+</div>
+<div id="validering-i-xmlspear" class="section level3">
+<h3><span class="header-section-number">2.2.3</span> Validering i XMLSpear</h3>
+<p>I XMLSpear valideras koden automatiskt om DTD-validering är förbockat. Detta görs genom att klicka på den gröna bocken och i rutan för DTD i raden ovanför rutan där ni skriver er kod:</p>
+<p><img src="img/xmlspearvalidation.png" /></p>
+<p>Efter att ha länkat till XSL- och DTD-filerna kan du fortsätta till nästa del i uppgiften.</p>
+</div>
+<div id="validering-på-en-chromebook" class="section level3">
+<h3><span class="header-section-number">2.2.4</span> Validering på en Chromebook</h3>
+<p>Som tidigare nämnt, om du har en Chromebook så kan du inte validera XML-koden i textredigeringsprogrammet. Du kan däremot använda dig av en webbtjänst för detta.</p>
+<p>När du vill kontrollera er XML, gå till <a href="http://xmlvalidator.new-studio.org/" class="uri">http://xmlvalidator.new-studio.org/</a>, bocka i <em>DTD</em> och välj din XML-fil med “Choose XML file to validate”. Klicka på knappen “Check”.</p>
+<p>Om det är så att er XML-fil inte har några problem i sig så visas följande resultat.</p>
+<p><img src="img/noerror.png" /></p>
+<p>Om det är så att er XML-fil har några problem så visas felmeddelanden, enligt nedan. Gå till de rader som felmeddelandena beskriver (i det här fallet rad 65 och rad 70) och åtgärda problemen.</p>
+<p><img src="img/error.png" /></p>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="skos-introduktionsövningar.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="koncept.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+},
+"search": false
+});
+});
+</script>
+
+</body>
+
+</html>
