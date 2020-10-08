@@ -180,10 +180,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="koncept" class="section level1">
 <h1><span class="header-section-number">3</span> Koncept</h1>
 <p>Nästa sak att göra är att skapa koncept som ska motsvara termer i din kontrollerade vokabulär. Poängen är att du inuti elementet <code>RDF</code> helt enkelt
-adderar ett element <code>Concept</code> för varje nytt koncept
+adderar ett element vid namn <code>Concept</code> för varje nytt koncept
 du vill introducera i din vokabulär.</p>
 <p>Låt oss anta att du är musikbibliotekarie och ska skapa en tesaurus för biblioteket. Du vill ge upphov till koncept som berör stränginstrument i din tesaurus för att underlätta informationssökning i en databas. Du introducerar därför koncepten <em>Gitarrer</em> och <em>Nyckelharpor</em> för att underlätta för användaren att hitta dokument som berör just dessa koncept. Du introducerar också konceptet
-<code>Stränginstrument</code> här, för att ha något som knyter
+<em>Stränginstrument</em> här, för att ha något som knyter
 samman övriga koncept och preliminärt kan fungera som toppkoncept.
 Förväxla inte den här <strong>identifikatorn</strong> med innehållet i
 <code>prefLabel</code>, som är den <strong>föredragna benämningen</strong> på
@@ -210,7 +210,7 @@ ett koncept.</p>
 <span id="cb6-20"><a href="koncept.html#cb6-20"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
 <p>Attributet <code>about</code> ska egentligen ta
 en giltig URI. I det här sammanhanget låter vi det vara en godtyckligt
-vald teckensträng som är någorlunda mnemonisk (minnesstödjande)
+vald teckensträng som är någorlunda minnesstödjande
 föregånget av tecknet <code>#</code>. Dess uppgift är alltid
 endast att utgöra en unik identitet för ett koncept i en SKOS, som det
 sedan är möjligt att referera till.</p>
