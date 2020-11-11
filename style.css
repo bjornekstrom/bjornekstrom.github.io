@@ -1,0 +1,29 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+code {
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: bold;
+    word-spacing: 5px;
+  }
+  
+  .links {
+    float: right;
+  }
