@@ -141,7 +141,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2.1" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-oxygen"><i class="fa fa-check"></i><b>2.2.1</b> Validering i Oxygen</a></li>
 <li class="chapter" data-level="2.2.2" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-editix"><i class="fa fa-check"></i><b>2.2.2</b> Validering i EditiX</a></li>
 <li class="chapter" data-level="2.2.3" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-xmlspear"><i class="fa fa-check"></i><b>2.2.3</b> Validering i XMLSpear</a></li>
-<li class="chapter" data-level="2.2.4" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-på-en-chromebook"><i class="fa fa-check"></i><b>2.2.4</b> Validering på en Chromebook</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="koncept.html"><a href="koncept.html"><i class="fa fa-check"></i><b>3</b> Koncept</a></li>
@@ -156,8 +155,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html"><i class="fa fa-check"></i><b>8</b> Se på filen i webbläsaren</a><ul>
 <li class="chapter" data-level="8.1" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-alfabetisk-listform"><i class="fa fa-check"></i><b>8.1</b> Visualisera i alfabetisk listform</a></li>
 <li class="chapter" data-level="8.2" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-hierarkisk-trädform"><i class="fa fa-check"></i><b>8.2</b> Visualisera i hierarkisk trädform</a></li>
-<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-på-en-chromebook"><i class="fa fa-check"></i><b>8.3</b> Visualisera på en Chromebook</a></li>
-<li class="chapter" data-level="8.4" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.4</b> Använd båda stilmallarna</a></li>
+<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.3</b> Använd båda stilmallarna</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="avslutningsvis.html"><a href="avslutningsvis.html"><i class="fa fa-check"></i><b>9</b> Avslutningsvis</a></li>
 </ul>
@@ -219,59 +217,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb4-6"><a href="skos-som-xml-tillämpning.html#cb4-6"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
 <span id="cb4-7"><a href="skos-som-xml-tillämpning.html#cb4-7"></a>  </span>
 <span id="cb4-8"><a href="skos-som-xml-tillämpning.html#cb4-8"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
-<div id="dtd-och-chromebook" class="section level4">
-<h4><span class="header-section-number">2.1.2.1</span> DTD och Chromebook</h4>
-<p>Om du har en Chromebook så kan du inte validera XML-koden i textredigeringsprogrammet. Detta innebär att du får använda en webbtjänst (se 2.2.4) För att valideringen ska bli korrekt får du därför bädda in DTD-filens beståndsdelar direkt i XML-filen. Använd därför denna kod istället:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb5-1"><a href="skos-som-xml-tillämpning.html#cb5-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
-<span id="cb5-2"><a href="skos-som-xml-tillämpning.html#cb5-2"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span>
-<span id="cb5-3"><a href="skos-som-xml-tillämpning.html#cb5-3"></a></span>
-<span id="cb5-4"><a href="skos-som-xml-tillämpning.html#cb5-4"></a><span class="dt">&lt;!DOCTYPE </span>rdf:RDF <span class="dt">[</span></span>
-<span id="cb5-5"><a href="skos-som-xml-tillämpning.html#cb5-5"></a><span class="dt">&lt;!ELEMENT</span> rdf:RDF (skos:ConceptScheme?,skos:Concept*)<span class="dt">&gt;</span></span>
-<span id="cb5-6"><a href="skos-som-xml-tillämpning.html#cb5-6"></a><span class="dt">&lt;!ATTLIST</span> rdf:RDF xmlns:dc CDATA #IMPLIED</span>
-<span id="cb5-7"><a href="skos-som-xml-tillämpning.html#cb5-7"></a>xmlns:skos CDATA #IMPLIED</span>
-<span id="cb5-8"><a href="skos-som-xml-tillämpning.html#cb5-8"></a>xmlns:rdf CDATA #IMPLIED<span class="dt">&gt;</span></span>
-<span id="cb5-9"><a href="skos-som-xml-tillämpning.html#cb5-9"></a></span>
-<span id="cb5-10"><a href="skos-som-xml-tillämpning.html#cb5-10"></a><span class="dt">&lt;!ELEMENT</span> skos:Concept (skos:prefLabel+, (skos:broader | skos:narrower | skos:broaderTransitive | skos:narrowerTransitive | skos:related | skos:definition | skos:scopeNote | skos:example</span>
-<span id="cb5-11"><a href="skos-som-xml-tillämpning.html#cb5-11"></a>| skos:altLabel | skos:hiddenLabel)*)<span class="dt">&gt;</span></span>
-<span id="cb5-12"><a href="skos-som-xml-tillämpning.html#cb5-12"></a><span class="dt">&lt;!ATTLIST</span> skos:Concept rdf:about CDATA #REQUIRED<span class="dt">&gt;</span></span>
-<span id="cb5-13"><a href="skos-som-xml-tillämpning.html#cb5-13"></a></span>
-<span id="cb5-14"><a href="skos-som-xml-tillämpning.html#cb5-14"></a><span class="dt">&lt;!ELEMENT</span> skos:broader EMPTY<span class="dt">&gt;</span></span>
-<span id="cb5-15"><a href="skos-som-xml-tillämpning.html#cb5-15"></a><span class="dt">&lt;!ATTLIST</span> skos:broader rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
-<span id="cb5-16"><a href="skos-som-xml-tillämpning.html#cb5-16"></a><span class="dt">&lt;!ELEMENT</span> skos:narrower EMPTY<span class="dt">&gt;</span></span>
-<span id="cb5-17"><a href="skos-som-xml-tillämpning.html#cb5-17"></a><span class="dt">&lt;!ATTLIST</span> skos:narrower rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
-<span id="cb5-18"><a href="skos-som-xml-tillämpning.html#cb5-18"></a><span class="dt">&lt;!ELEMENT</span> skos:narrowerTransitive EMPTY<span class="dt">&gt;</span></span>
-<span id="cb5-19"><a href="skos-som-xml-tillämpning.html#cb5-19"></a><span class="dt">&lt;!ATTLIST</span> skos:narrowerTransitive rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
-<span id="cb5-20"><a href="skos-som-xml-tillämpning.html#cb5-20"></a><span class="dt">&lt;!ELEMENT</span> skos:broaderTransitive EMPTY<span class="dt">&gt;</span></span>
-<span id="cb5-21"><a href="skos-som-xml-tillämpning.html#cb5-21"></a><span class="dt">&lt;!ATTLIST</span> skos:broaderTransitive rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
-<span id="cb5-22"><a href="skos-som-xml-tillämpning.html#cb5-22"></a><span class="dt">&lt;!ELEMENT</span> skos:related EMPTY<span class="dt">&gt;</span></span>
-<span id="cb5-23"><a href="skos-som-xml-tillämpning.html#cb5-23"></a><span class="dt">&lt;!ATTLIST</span> skos:related rdf:resource CDATA #REQUIRED<span class="dt">&gt;</span></span>
-<span id="cb5-24"><a href="skos-som-xml-tillämpning.html#cb5-24"></a><span class="dt">&lt;!ELEMENT</span> skos:definition (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-25"><a href="skos-som-xml-tillämpning.html#cb5-25"></a><span class="dt">&lt;!ATTLIST</span> skos:definition rdf:resource CDATA #IMPLIED<span class="dt">&gt;</span></span>
-<span id="cb5-26"><a href="skos-som-xml-tillämpning.html#cb5-26"></a><span class="dt">&lt;!ELEMENT</span> skos:scopeNote (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-27"><a href="skos-som-xml-tillämpning.html#cb5-27"></a><span class="dt">&lt;!ELEMENT</span> skos:example (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-28"><a href="skos-som-xml-tillämpning.html#cb5-28"></a><span class="dt">&lt;!ATTLIST</span> skos:example rdf:resource CDATA #IMPLIED<span class="dt">&gt;</span></span>
-<span id="cb5-29"><a href="skos-som-xml-tillämpning.html#cb5-29"></a><span class="dt">&lt;!ELEMENT</span> skos:prefLabel (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-30"><a href="skos-som-xml-tillämpning.html#cb5-30"></a><span class="dt">&lt;!ATTLIST</span> skos:prefLabel xml:lang CDATA #IMPLIED<span class="dt">&gt;</span></span>
-<span id="cb5-31"><a href="skos-som-xml-tillämpning.html#cb5-31"></a><span class="dt">&lt;!ELEMENT</span> skos:altLabel (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-32"><a href="skos-som-xml-tillämpning.html#cb5-32"></a><span class="dt">&lt;!ATTLIST</span> skos:altLabel xml:lang CDATA #IMPLIED<span class="dt">&gt;</span></span>
-<span id="cb5-33"><a href="skos-som-xml-tillämpning.html#cb5-33"></a><span class="dt">&lt;!ELEMENT</span> skos:hiddenLabel (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-34"><a href="skos-som-xml-tillämpning.html#cb5-34"></a><span class="dt">&lt;!ATTLIST</span> skos:hiddenLabel xml:lang CDATA #IMPLIED<span class="dt">&gt;</span></span>
-<span id="cb5-35"><a href="skos-som-xml-tillämpning.html#cb5-35"></a></span>
-<span id="cb5-36"><a href="skos-som-xml-tillämpning.html#cb5-36"></a><span class="dt">&lt;!ELEMENT</span> skos:ConceptScheme (dc:creator | dc:title | dc:description)*<span class="dt">&gt;</span></span>
-<span id="cb5-37"><a href="skos-som-xml-tillämpning.html#cb5-37"></a><span class="dt">&lt;!ATTLIST</span> skos:ConceptScheme rdf:about CDATA #REQUIRED<span class="dt">&gt;</span></span>
-<span id="cb5-38"><a href="skos-som-xml-tillämpning.html#cb5-38"></a></span>
-<span id="cb5-39"><a href="skos-som-xml-tillämpning.html#cb5-39"></a><span class="dt">&lt;!ELEMENT</span> dc:creator (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-40"><a href="skos-som-xml-tillämpning.html#cb5-40"></a><span class="dt">&lt;!ELEMENT</span> dc:title (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-41"><a href="skos-som-xml-tillämpning.html#cb5-41"></a><span class="dt">&lt;!ELEMENT</span> dc:description (#PCDATA)<span class="dt">&gt;</span></span>
-<span id="cb5-42"><a href="skos-som-xml-tillämpning.html#cb5-42"></a><span class="dt">]&gt;</span></span>
-<span id="cb5-43"><a href="skos-som-xml-tillämpning.html#cb5-43"></a>  </span>
-<span id="cb5-44"><a href="skos-som-xml-tillämpning.html#cb5-44"></a>  </span>
-<span id="cb5-45"><a href="skos-som-xml-tillämpning.html#cb5-45"></a><span class="kw">&lt;rdf:RDF</span> </span>
-<span id="cb5-46"><a href="skos-som-xml-tillämpning.html#cb5-46"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
-<span id="cb5-47"><a href="skos-som-xml-tillämpning.html#cb5-47"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb5-48"><a href="skos-som-xml-tillämpning.html#cb5-48"></a>  </span>
-<span id="cb5-49"><a href="skos-som-xml-tillämpning.html#cb5-49"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
-</div>
 </div>
 </div>
 <div id="giltig-skos-och-validering" class="section level2">
@@ -302,15 +247,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>I XMLSpear valideras koden automatiskt om DTD-validering är förbockat. Detta görs genom att klicka på den gröna bocken och i rutan för DTD i raden ovanför rutan där ni skriver er kod:</p>
 <p><img src="img/xmlspearvalidation.png" /></p>
 <p>Efter att ha länkat till XSL- och DTD-filerna kan du fortsätta till nästa del i uppgiften.</p>
-</div>
-<div id="validering-på-en-chromebook" class="section level3">
-<h3><span class="header-section-number">2.2.4</span> Validering på en Chromebook</h3>
-<p>Som tidigare nämnt, om du har en Chromebook så kan du inte validera XML-koden i textredigeringsprogrammet. Du kan däremot använda dig av en webbtjänst för detta.</p>
-<p>När du vill kontrollera er XML, gå till <a href="http://xmlvalidator.new-studio.org/" class="uri">http://xmlvalidator.new-studio.org/</a>, bocka i <em>DTD</em> och välj din XML-fil med “Choose XML file to validate”. Klicka på knappen “Check”.</p>
-<p>Om det är så att er XML-fil inte har några problem i sig så visas följande resultat.</p>
-<p><img src="img/noerror.png" /></p>
-<p>Om det är så att er XML-fil har några problem så visas felmeddelanden, enligt nedan. Gå till de rader som felmeddelandena beskriver (i det här fallet rad 65 och rad 70) och åtgärda problemen.</p>
-<p><img src="img/error.png" /></p>
 </div>
 </div>
 </div>

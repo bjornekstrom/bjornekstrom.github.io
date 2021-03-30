@@ -141,7 +141,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2.1" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-oxygen"><i class="fa fa-check"></i><b>2.2.1</b> Validering i Oxygen</a></li>
 <li class="chapter" data-level="2.2.2" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-editix"><i class="fa fa-check"></i><b>2.2.2</b> Validering i EditiX</a></li>
 <li class="chapter" data-level="2.2.3" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-xmlspear"><i class="fa fa-check"></i><b>2.2.3</b> Validering i XMLSpear</a></li>
-<li class="chapter" data-level="2.2.4" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-på-en-chromebook"><i class="fa fa-check"></i><b>2.2.4</b> Validering på en Chromebook</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="koncept.html"><a href="koncept.html"><i class="fa fa-check"></i><b>3</b> Koncept</a></li>
@@ -156,8 +155,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html"><i class="fa fa-check"></i><b>8</b> Se på filen i webbläsaren</a><ul>
 <li class="chapter" data-level="8.1" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-alfabetisk-listform"><i class="fa fa-check"></i><b>8.1</b> Visualisera i alfabetisk listform</a></li>
 <li class="chapter" data-level="8.2" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-hierarkisk-trädform"><i class="fa fa-check"></i><b>8.2</b> Visualisera i hierarkisk trädform</a></li>
-<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-på-en-chromebook"><i class="fa fa-check"></i><b>8.3</b> Visualisera på en Chromebook</a></li>
-<li class="chapter" data-level="8.4" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.4</b> Använd båda stilmallarna</a></li>
+<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.3</b> Använd båda stilmallarna</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="avslutningsvis.html"><a href="avslutningsvis.html"><i class="fa fa-check"></i><b>9</b> Avslutningsvis</a></li>
 </ul>
@@ -188,26 +186,26 @@ samman övriga koncept och preliminärt kan fungera som toppkoncept.
 Förväxla inte den här <strong>identifikatorn</strong> med innehållet i
 <code>prefLabel</code>, som är den <strong>föredragna benämningen</strong> på
 ett koncept.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb6-1"><a href="koncept.html#cb6-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
-<span id="cb6-2"><a href="koncept.html#cb6-2"></a><span class="dt">&lt;!DOCTYPE </span>rdf:RDF SYSTEM &quot;skos.dtd&quot;<span class="dt">&gt;</span></span>
-<span id="cb6-3"><a href="koncept.html#cb6-3"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span>
-<span id="cb6-4"><a href="koncept.html#cb6-4"></a><span class="kw">&lt;rdf:RDF</span> </span>
-<span id="cb6-5"><a href="koncept.html#cb6-5"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
-<span id="cb6-6"><a href="koncept.html#cb6-6"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb6-7"><a href="koncept.html#cb6-7"></a>  </span>
-<span id="cb6-8"><a href="koncept.html#cb6-8"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#stranginstrument&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb6-9"><a href="koncept.html#cb6-9"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
-<span id="cb6-10"><a href="koncept.html#cb6-10"></a>    </span>
-<span id="cb6-11"><a href="koncept.html#cb6-11"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#gitarrer&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb6-12"><a href="koncept.html#cb6-12"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
-<span id="cb6-13"><a href="koncept.html#cb6-13"></a></span>
-<span id="cb6-14"><a href="koncept.html#cb6-14"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#nyckelharpor&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb6-15"><a href="koncept.html#cb6-15"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
-<span id="cb6-16"><a href="koncept.html#cb6-16"></a>    </span>
-<span id="cb6-17"><a href="koncept.html#cb6-17"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#rockmusik&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb6-18"><a href="koncept.html#cb6-18"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
-<span id="cb6-19"><a href="koncept.html#cb6-19"></a></span>
-<span id="cb6-20"><a href="koncept.html#cb6-20"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb5-1"><a href="koncept.html#cb5-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
+<span id="cb5-2"><a href="koncept.html#cb5-2"></a><span class="dt">&lt;!DOCTYPE </span>rdf:RDF SYSTEM &quot;skos.dtd&quot;<span class="dt">&gt;</span></span>
+<span id="cb5-3"><a href="koncept.html#cb5-3"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span>
+<span id="cb5-4"><a href="koncept.html#cb5-4"></a><span class="kw">&lt;rdf:RDF</span> </span>
+<span id="cb5-5"><a href="koncept.html#cb5-5"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
+<span id="cb5-6"><a href="koncept.html#cb5-6"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb5-7"><a href="koncept.html#cb5-7"></a>  </span>
+<span id="cb5-8"><a href="koncept.html#cb5-8"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#stranginstrument&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb5-9"><a href="koncept.html#cb5-9"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
+<span id="cb5-10"><a href="koncept.html#cb5-10"></a>    </span>
+<span id="cb5-11"><a href="koncept.html#cb5-11"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#gitarrer&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb5-12"><a href="koncept.html#cb5-12"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
+<span id="cb5-13"><a href="koncept.html#cb5-13"></a></span>
+<span id="cb5-14"><a href="koncept.html#cb5-14"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#nyckelharpor&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb5-15"><a href="koncept.html#cb5-15"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
+<span id="cb5-16"><a href="koncept.html#cb5-16"></a>    </span>
+<span id="cb5-17"><a href="koncept.html#cb5-17"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#rockmusik&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb5-18"><a href="koncept.html#cb5-18"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
+<span id="cb5-19"><a href="koncept.html#cb5-19"></a></span>
+<span id="cb5-20"><a href="koncept.html#cb5-20"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
 <p>Attributet <code>about</code> ska egentligen ta
 en giltig URI. I det här sammanhanget låter vi det vara en godtyckligt
 vald teckensträng som är någorlunda minnesstödjande

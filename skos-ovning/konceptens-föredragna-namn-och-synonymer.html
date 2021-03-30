@@ -141,7 +141,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2.1" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-oxygen"><i class="fa fa-check"></i><b>2.2.1</b> Validering i Oxygen</a></li>
 <li class="chapter" data-level="2.2.2" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-editix"><i class="fa fa-check"></i><b>2.2.2</b> Validering i EditiX</a></li>
 <li class="chapter" data-level="2.2.3" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-xmlspear"><i class="fa fa-check"></i><b>2.2.3</b> Validering i XMLSpear</a></li>
-<li class="chapter" data-level="2.2.4" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-på-en-chromebook"><i class="fa fa-check"></i><b>2.2.4</b> Validering på en Chromebook</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="koncept.html"><a href="koncept.html"><i class="fa fa-check"></i><b>3</b> Koncept</a></li>
@@ -156,8 +155,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html"><i class="fa fa-check"></i><b>8</b> Se på filen i webbläsaren</a><ul>
 <li class="chapter" data-level="8.1" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-alfabetisk-listform"><i class="fa fa-check"></i><b>8.1</b> Visualisera i alfabetisk listform</a></li>
 <li class="chapter" data-level="8.2" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-hierarkisk-trädform"><i class="fa fa-check"></i><b>8.2</b> Visualisera i hierarkisk trädform</a></li>
-<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-på-en-chromebook"><i class="fa fa-check"></i><b>8.3</b> Visualisera på en Chromebook</a></li>
-<li class="chapter" data-level="8.4" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.4</b> Använd båda stilmallarna</a></li>
+<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.3</b> Använd båda stilmallarna</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="avslutningsvis.html"><a href="avslutningsvis.html"><i class="fa fa-check"></i><b>9</b> Avslutningsvis</a></li>
 </ul>
@@ -187,31 +185,31 @@ att definiera föredragna termer (<code>prefLabel</code>) för dessa koncept. Et
 koncept kan endast ha en föredragen term för ett givet språk. Finns det
 fler namn för konceptet i form av synonymer eller nära synonymer måste
 de vara alternativa namn (<code>altLabel</code>).</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb7-1"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
-<span id="cb7-2"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-2"></a><span class="dt">&lt;!DOCTYPE </span>rdf:RDF SYSTEM &quot;skos.dtd&quot;<span class="dt">&gt;</span></span>
-<span id="cb7-3"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-3"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span>
-<span id="cb7-4"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-4"></a><span class="kw">&lt;rdf:RDF</span> </span>
-<span id="cb7-5"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-5"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
-<span id="cb7-6"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-6"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb7-7"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-7"></a> </span>
-<span id="cb7-8"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-8"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#stranginstrument&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb7-9"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-9"></a>    <span class="kw">&lt;skos:prefLabel&gt;</span>Stränginstrument<span class="kw">&lt;/skos:prefLabel&gt;</span></span>
-<span id="cb7-10"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-10"></a>    <span class="kw">&lt;/skos:Concept&gt;</span> </span>
-<span id="cb7-11"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-11"></a></span>
-<span id="cb7-12"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-12"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#gitarrer&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb7-13"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-13"></a>    <span class="kw">&lt;skos:prefLabel&gt;</span>Gitarrer<span class="kw">&lt;/skos:prefLabel&gt;</span></span>
-<span id="cb7-14"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-14"></a>        <span class="kw">&lt;skos:altLabel&gt;</span>Guror<span class="kw">&lt;/skos:altLabel&gt;</span></span>
-<span id="cb7-15"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-15"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
-<span id="cb7-16"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-16"></a></span>
-<span id="cb7-17"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-17"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#nyckelharpor&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb7-18"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-18"></a>    <span class="kw">&lt;skos:prefLabel&gt;</span>Nyckelharpor<span class="kw">&lt;/skos:prefLabel&gt;</span></span>
-<span id="cb7-19"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-19"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
-<span id="cb7-20"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-20"></a>    </span>
-<span id="cb7-21"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-21"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#rockmusik&quot;</span><span class="kw">&gt;</span></span>
-<span id="cb7-22"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-22"></a>    <span class="kw">&lt;skos:prefLabel&gt;</span>Rockmusik<span class="kw">&lt;/skos:prefLabel&gt;</span></span>
-<span id="cb7-23"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-23"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
-<span id="cb7-24"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-24"></a></span>
-<span id="cb7-25"><a href="konceptens-föredragna-namn-och-synonymer.html#cb7-25"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb6-1"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-1"></a><span class="kw">&lt;?xml</span> version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;<span class="kw">?&gt;</span></span>
+<span id="cb6-2"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-2"></a><span class="dt">&lt;!DOCTYPE </span>rdf:RDF SYSTEM &quot;skos.dtd&quot;<span class="dt">&gt;</span></span>
+<span id="cb6-3"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-3"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span>
+<span id="cb6-4"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-4"></a><span class="kw">&lt;rdf:RDF</span> </span>
+<span id="cb6-5"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-5"></a><span class="ot">  xmlns:rdf=</span><span class="st">&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</span></span>
+<span id="cb6-6"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-6"></a><span class="ot">  xmlns:skos=</span><span class="st">&quot;http://www.w3.org/2004/02/skos/core#&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb6-7"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-7"></a> </span>
+<span id="cb6-8"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-8"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#stranginstrument&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb6-9"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-9"></a>    <span class="kw">&lt;skos:prefLabel&gt;</span>Stränginstrument<span class="kw">&lt;/skos:prefLabel&gt;</span></span>
+<span id="cb6-10"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-10"></a>    <span class="kw">&lt;/skos:Concept&gt;</span> </span>
+<span id="cb6-11"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-11"></a></span>
+<span id="cb6-12"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-12"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#gitarrer&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb6-13"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-13"></a>    <span class="kw">&lt;skos:prefLabel&gt;</span>Gitarrer<span class="kw">&lt;/skos:prefLabel&gt;</span></span>
+<span id="cb6-14"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-14"></a>        <span class="kw">&lt;skos:altLabel&gt;</span>Guror<span class="kw">&lt;/skos:altLabel&gt;</span></span>
+<span id="cb6-15"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-15"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
+<span id="cb6-16"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-16"></a></span>
+<span id="cb6-17"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-17"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#nyckelharpor&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb6-18"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-18"></a>    <span class="kw">&lt;skos:prefLabel&gt;</span>Nyckelharpor<span class="kw">&lt;/skos:prefLabel&gt;</span></span>
+<span id="cb6-19"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-19"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
+<span id="cb6-20"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-20"></a>    </span>
+<span id="cb6-21"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-21"></a>    <span class="kw">&lt;skos:Concept</span><span class="ot"> rdf:about=</span><span class="st">&quot;#rockmusik&quot;</span><span class="kw">&gt;</span></span>
+<span id="cb6-22"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-22"></a>    <span class="kw">&lt;skos:prefLabel&gt;</span>Rockmusik<span class="kw">&lt;/skos:prefLabel&gt;</span></span>
+<span id="cb6-23"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-23"></a>    <span class="kw">&lt;/skos:Concept&gt;</span></span>
+<span id="cb6-24"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-24"></a></span>
+<span id="cb6-25"><a href="konceptens-föredragna-namn-och-synonymer.html#cb6-25"></a><span class="kw">&lt;/rdf:RDF&gt;</span></span></code></pre></div>
 <p>Lägg därför till <code>prefLabel</code> och <code>altLabel</code>-element enligt ovan och fortsätt sedan till nästa del i uppgiften.</p>
 </div>
             </section>

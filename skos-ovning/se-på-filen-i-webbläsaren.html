@@ -141,7 +141,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2.1" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-oxygen"><i class="fa fa-check"></i><b>2.2.1</b> Validering i Oxygen</a></li>
 <li class="chapter" data-level="2.2.2" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-editix"><i class="fa fa-check"></i><b>2.2.2</b> Validering i EditiX</a></li>
 <li class="chapter" data-level="2.2.3" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-i-xmlspear"><i class="fa fa-check"></i><b>2.2.3</b> Validering i XMLSpear</a></li>
-<li class="chapter" data-level="2.2.4" data-path="skos-som-xml-tillämpning.html"><a href="skos-som-xml-tillämpning.html#validering-på-en-chromebook"><i class="fa fa-check"></i><b>2.2.4</b> Validering på en Chromebook</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="koncept.html"><a href="koncept.html"><i class="fa fa-check"></i><b>3</b> Koncept</a></li>
@@ -156,8 +155,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html"><i class="fa fa-check"></i><b>8</b> Se på filen i webbläsaren</a><ul>
 <li class="chapter" data-level="8.1" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-alfabetisk-listform"><i class="fa fa-check"></i><b>8.1</b> Visualisera i alfabetisk listform</a></li>
 <li class="chapter" data-level="8.2" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-i-hierarkisk-trädform"><i class="fa fa-check"></i><b>8.2</b> Visualisera i hierarkisk trädform</a></li>
-<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#visualisera-på-en-chromebook"><i class="fa fa-check"></i><b>8.3</b> Visualisera på en Chromebook</a></li>
-<li class="chapter" data-level="8.4" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.4</b> Använd båda stilmallarna</a></li>
+<li class="chapter" data-level="8.3" data-path="se-på-filen-i-webbläsaren.html"><a href="se-på-filen-i-webbläsaren.html#använd-båda-stilmallarna"><i class="fa fa-check"></i><b>8.3</b> Använd båda stilmallarna</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="avslutningsvis.html"><a href="avslutningsvis.html"><i class="fa fa-check"></i><b>9</b> Avslutningsvis</a></li>
 </ul>
@@ -183,7 +181,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="visualisera-i-alfabetisk-listform" class="section level2">
 <h2><span class="header-section-number">8.1</span> Visualisera i alfabetisk listform</h2>
 <p>Hänvisa till XSL-stilmallen <code>skos-styleList.xsl</code> genom att lägga till följande efter XML-deklarationen men innan rotelementet (om det inte redan finns i din kod):</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb14-1"><a href="se-på-filen-i-webbläsaren.html#cb14-1"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb13-1"><a href="se-på-filen-i-webbläsaren.html#cb13-1"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span></code></pre></div>
 <p>Öppna sedan din XML-fil i webbläsaren Firefox. Om detta gjorts så bör du kunna se en lista där alla namn (både föredragna och alternativa) listas i alfabetisk ordning - motsvarande bilden nedan.</p>
 <p><img src="img/skos-styleList.png" /></p>
 <p>Den XSL som ges till dessa övningar ger bara ett exempel på hur en SKOS kan transformeras. Flera SKOS-element, som dock inte behöver användas, har till exempel ingen transformation alls och kommer inte att ges någon presentation alls i webbläsaren.</p>
@@ -191,25 +189,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="visualisera-i-hierarkisk-trädform" class="section level2">
 <h2><span class="header-section-number">8.2</span> Visualisera i hierarkisk trädform</h2>
 <p>Det finns i Github-repositoriet ytterligare en XSL som med utgångspunkt från innehållet i varje koncepts <code>prefLabel</code> och konceptens hierarkiska relationer åskådliggör din vokabulär i trädform. Byt därför ut</p>
-<div class="sourceCode" id="cb15"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb15-1"><a href="se-på-filen-i-webbläsaren.html#cb15-1"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb14-1"><a href="se-på-filen-i-webbläsaren.html#cb14-1"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl&quot;<span class="kw">?&gt;</span></span></code></pre></div>
 <p>mot</p>
-<div class="sourceCode" id="cb16"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb16-1"><a href="se-på-filen-i-webbläsaren.html#cb16-1"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleHie.xsl&quot;<span class="kw">?&gt;</span></span></code></pre></div>
+<div class="sourceCode" id="cb15"><pre class="sourceCode xml"><code class="sourceCode xml"><span id="cb15-1"><a href="se-på-filen-i-webbläsaren.html#cb15-1"></a><span class="kw">&lt;?xml-stylesheet</span> type=&quot;text/xsl&quot; href=&quot;https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleHie.xsl&quot;<span class="kw">?&gt;</span></span></code></pre></div>
 <p>i din XML fil. Spara och ladda om filen i Firefox. På det här viset visualiseras tesaurusen i trädform likt nedan:</p>
 <p><img src="img/skos-styleHie.png" /></p>
 </div>
-<div id="visualisera-på-en-chromebook" class="section level2">
-<h2><span class="header-section-number">8.3</span> Visualisera på en Chromebook</h2>
-<p>Webbläsaren Chrome har numera inget inbyggt stöd för att visa XSL-filer. Vad du istället får göra är att använda dig av en webbtjänst för att visualisera tesaurusen.</p>
-<ol style="list-style-type: decimal">
-<li>Gå till <a href="https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&amp;xsltfile=cdcatalog" class="uri">https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&amp;xsltfile=cdcatalog</a></li>
-<li>Lägg in din XML-kod i den vänstra rutan, <em>XML Code</em>.</li>
-<li>Lägg in all XSL-kod ifrån en av stilmallarna (<a href="https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl" class="uri">https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleList.xsl</a> eller <a href="https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleHie.xsl" class="uri">https://raw.githubusercontent.com/Mikael61/Mikael61.github.io/master/skos-styleHie.xsl</a> i den högra rutan, <em>XSLT Code</em>).</li>
-<li>Resultatet blir då liknande ovan.</li>
-</ol>
-<p><img src="img/w3xsl.png" /></p>
-</div>
 <div id="använd-båda-stilmallarna" class="section level2">
-<h2><span class="header-section-number">8.4</span> Använd båda stilmallarna</h2>
+<h2><span class="header-section-number">8.3</span> Använd båda stilmallarna</h2>
 <p>Du använder med fördel stilmallarna för att kontrollera så att du får
 det resultat du förväntar dig. Det måste dock sägas att för
 <code>skos-styleHie.xsl</code> gäller att den förutsätter att din SKOS inte är
