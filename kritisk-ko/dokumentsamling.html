@@ -1,0 +1,1530 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero-rapport</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9Cg==">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_A57U8SWP" class="item journalArticle">
+			<h2>Browsing through Bias: The Library of Congress Classification and
+ Subject Headings for African American Studies and LGBTQIA Studies</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Sara A. Howard</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Steven A. Knowlton</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://muse.jhu.edu/article/706989">https://muse.jhu.edu/article/706989</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>67</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>74-88</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Library Trends</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1559-0682</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Johns Hopkins University Press</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1353/lib.2018.0026">10.1353/lib.2018.0026</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-19 22:43:49</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>Project MUSE</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>The knowledge organization system prepared by the Library of 
+Congress (LC) and widely used in academic libraries has some 
+disadvantages for researchers in the fields of African American studies 
+and LGBTQIA studies. The interdisciplinary nature of those fields means 
+that browsing in stacks or shelflists organized by LC Classification 
+requires looking in numerous locations. As well, persistent bias in the 
+language used for subject headings, as well as the hierarchy of 
+classification for books in these fields, continues to “other” the 
+peoples and topics that populate these titles. This paper offers tools 
+to help researchers have a holistic view of applicable titles across 
+library shelves and hopes to become part of a larger conversation 
+regarding social responsibility and diversity in the library community.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Browsing through Bias</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-19 22:43:49</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-19 22:44:17</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_QIE2S97U" class="item conferencePaper">
+			<h2>Critical about the clustering of tags : An intersectional perspective on folksonomies</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Konferensartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Isto Huvila</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Kristin Johannesson</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-161208">http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-161208</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Utgivare</th>
+						<td>Åbo Akademi</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>99-106</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2011</td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-19 22:45:32</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>uu.diva-portal.org</td>
+					</tr>
+					<tr>
+					<th>Namn på konferens</th>
+						<td>International Conference Information Science and Social Media ISSOME 2011</td>
+					</tr>
+					<tr>
+					<th>Språk</th>
+						<td>eng</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Folksonomies and social tagging systems have been proposed as a
+ pos-sible solution to counter the marginalising tendencies of large 
+universalclassification systems [10]. The aim of our presentation is to 
+discuss theimplications of critical theory and the concept of 
+intersectionality to the interpretation and use of tag clusters as 
+representations of viewpoints. Inspite of the wealth of empirical 
+research on folksonomies and clusteringof tags together with examples of
+ critical perspectives focussing on mar-ginalisation in the context of 
+folksonomies (e.g. [1]), no comprehensivecritical approach to tag 
+clusters has been presented.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Critical about the clustering of tags</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-19 22:45:32</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-19 22:46:32</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_IPARPFFT" class="item journalArticle">
+			<h2>Dewey deracialized: A critical race-theoretic perspective</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Jonathan Furner</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://works.bepress.com/furner/14/">https://works.bepress.com/furner/14/</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>34</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Knowledge Organization</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2018-02-14 01:00:00</td>
+					</tr>
+					<tr>
+					<th>Språk</th>
+						<td>English</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Critical race theory is introduced as a potentially useful 
+approach to the evaluation of bibliographic classification schemes. An 
+overview is presented of the essential elements of critical race theory,
+ including clarifications of the meanings of some important terms such 
+as “race” and “social justice.” On the basis of a review of existing 
+conceptions of the just and the antiracist library service, a rationale 
+is presented for hypothesizing that critical race theory may be of use 
+to the library and information sciences. The role of classification 
+schemes as information institutions in their own right is established, 
+and the Dewey Decimal Classification is introduced as the case to be 
+studied. The challenges faced by classification-scheme designers in the 
+construction and/or reconstruction of race-related categories are 
+reviewed; and an analysis is presented of one sense in which it might be
+ suggested that recent (2003) revisions in one of the DDC’s tables 
+appear not to meet those challenges wholly successfully. An account is 
+given of a further sense in which adoption of a critical race-theoretic 
+approach has the more radical effect of calling into question a 
+fundamental decision recently taken to “deracialize” the DDC. In 
+conclusion, an assessment is made of critical race theory as a framework
+ for evaluating library classification schemes.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Dewey deracialized</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 13:58:54</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-16 13:58:54</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_7FG6IUEQ" class="item journalArticle">
+			<h2>How Disability Studies Scholars Interact with Subject Headings</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Amelia Koford</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://doi.org/10.1080/01639374.2014.891288">https://doi.org/10.1080/01639374.2014.891288</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>52</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>388-411</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Cataloging &amp; Classification Quarterly</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0163-9374</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>May 19, 2014</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1080/01639374.2014.891288">10.1080/01639374.2014.891288</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 17:20:51</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Although several scholars of information organization have 
+documented limitations in the way subject access standards represent 
+marginalized topics, few have studied how users understand and address 
+these limitations. This qualitative study investigates the information 
+seeking behavior of nine scholars in the field of disability studies, 
+focusing on how they interact with subject headings. The findings 
+suggest that disability studies scholars often encounter and use 
+non-preferred language when doing research and that they respond to this
+ language in a variety of ways. The study also found that many 
+participants prefer multidisciplinary search tools to subject-specific 
+databases.</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 17:20:52</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-16 17:20:52</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Etiketter:</h3>
+				<ul class="tags">
+					<li>information retrieval</li>
+					<li>bias</li>
+					<li>disability studies</li>
+					<li>indexing vocabularies</li>
+					<li>interviews</li>
+					<li>subject access</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DNJ3DDQZ" class="item thesis">
+			<h2>Indigenization of Knowledge Organization at the Xwi7xwa Library</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Uppsats</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Ann M. Doyle</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Kimberley Lawson</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Sarah Dupont</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://open.library.ubc.ca/cIRcle/collections/ubclibraryandarchives/494/items/1.0103204">https://open.library.ubc.ca/cIRcle/collections/ubclibraryandarchives/494/items/1.0103204</a></td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2015-12</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>DOI: 10.14288/1.0103204</td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 16:41:23</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>open.library.ubc.ca</td>
+					</tr>
+					<tr>
+					<th>Språk</th>
+						<td>eng</td>
+					</tr>
+					<tr>
+					<th>Lärosäte</th>
+						<td>University of British Columbia</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>This paper examines the Indigenization of knowledge 
+organization within library and information studies through conceptual 
+analysis and a descriptive case study of an Aboriginal academic library,
+ the Xwi7xwa Library at the University of British Columbia, Canada. We 
+begin by locating the library in place and time, review its historical 
+development in the context of Indigenous education in Canada and 
+describe the evolution of its unique Indigenous classification scheme 
+and related Indigenous subject headings. This place-based analysis leads
+ to a particular articulation of Indigenization and a conceptual 
+framework for Indigenization of knowledge organization at the Xwi7xwa 
+Library, which guide the practice of knowledge organization design and 
+modes of mobilization at this particular Aboriginal library. The 
+conceptual framework rests on two basic assumptions: firstly, that 
+collection development is curatorial in nature and is the seminal step 
+in library knowledge organization, and, secondly, that the Indigenized 
+knowledge organization system is critical to effective Indigenous 
+information and instructional services, programming and research at the 
+Library. The final section presents future possibilities for the 
+Indigenization of knowledge organization through convergences and 
+collaborations with emerging networks of Indigenous scholars and 
+Indigenous communities of knowledge within the context of new 
+technologies.</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 16:41:23</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-16 16:41:23</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_F5F6HBYN" class="item journalArticle">
+			<h2>Making Pacific Languages Discoverable: A Project to Catalog the 
+University of Hawai'i at Mānoa Library Pacific Collection by Indigenous 
+Languages</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Eleanor Kleiber</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Andrea L Berez-Kroeker</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Michael Chopey</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Danielle Yarbrough</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Ryan Shelby</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://muse.jhu.edu/article/683735">https://muse.jhu.edu/article/683735</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>30</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>110-122</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>The Contemporary Pacific</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1527-9464</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>Tidskriftsförkortning</th>
+						<td>The Contemporary Pacific</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1353/cp.2018.0005">10.1353/cp.2018.0005</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 17:22:32</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Språk</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>In this essay, we describe our recent three-year project to 
+increase the discoverability and accessibility of the Pacific-language 
+materials in the Pacific Collection at the University of Hawai’i at 
+Manoa Hamilton Library by improving and making consistent the 
+descriptive metadata in the catalog, using standards accepted by both 
+library science and linguistic science.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Making Pacific Languages Discoverable</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 17:22:33</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-19 22:39:46</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_QFZQZGIU" class="item journalArticle">
+			<h2>Queering the Catalog: Queer Theory and the Politics of Correction</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Emily Drabinski</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://www.jstor.org/stable/10.1086/669547">https://www.jstor.org/stable/10.1086/669547</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>83</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>94-111</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>The Library Quarterly: Information, Community, Policy</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0024-2519</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2013</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: The University of Chicago Press</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1086/669547">10.1086/669547</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-09 13:18:29</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>JSTOR</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Critiques of hegemonic library classification structures and 
+controlled vocabularies have a rich history in information studies. This
+ project has pointed out the trouble with classification and cataloging 
+decisions that are framed as objective and neutral but are always 
+ideological and worked to correct bias in library structures. Viewing 
+knowledge organization systems from a queer perspective, however, 
+challenges the idea that classification and subject language can ever be
+ finally corrected. Engaging queer theory and library classification and
+ cataloging together requires new ways of thinking about how to be 
+ethically and politically engaged on behalf of marginal knowledge 
+formations and identities who quite reasonably expect to be able to 
+locate themselves in the library. Queer theory invites a shift in 
+responsibility from catalogers, positioned to offer functional 
+solutions, to public services librarians, who can teach patrons to 
+dialogically engage the catalog as a complex and biased text, just as 
+critical catalogers do.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Queering the Catalog</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 13:51:43</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-16 13:52:22</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_62XH9FN7" class="item journalArticle">
+			<h2>Race and Ethnicity in Classification Systems: Teaching Knowledge Organization from a Social Justice Perspective</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Melissa Adler</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Lindsey M. Harper</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://muse.jhu.edu/article/706988">https://muse.jhu.edu/article/706988</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>67</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>52-73</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Library Trends</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1559-0682</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2018</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1353/lib.2018.0025">10.1353/lib.2018.0025</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 17:12:02</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>Project MUSE</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Classification and the organization of information are 
+directly connected to issues surrounding social justice, diversity, and 
+inclusion. This paper is written from the standpoint that political and 
+epistemological aspects of knowledge organization are fundamental to 
+research and practice and suggests ways to integrate social justice and 
+diversity issues into courses on the organization of information.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Race and Ethnicity in Classification Systems</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 17:12:03</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-16 17:12:03</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_I97HTNQ8" class="item journalArticle">
+			<h2>Social reproduction and exclusion in subject indexing: A comparison of public library OPACs and LibraryThing folksonomy</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Jo Bates</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Jennifer Rowley</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://www.emerald.com/insight/content/doi/10.1108/00220411111124532/full/html">https://www.emerald.com/insight/content/doi/10.1108/00220411111124532/full/html</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>67</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>431-448</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Journal of Documentation</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0022-0418</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2011-04-26</td>
+					</tr>
+					<tr>
+					<th>Tidskriftsförkortning</th>
+						<td>Journal of Documentation</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1108/00220411111124532">10.1108/00220411111124532</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 17:18:34</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Språk</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Purpose
+
+The purpose of this paper is to highlight limits to the dominant model 
+of social inclusion under which UK public libraries operate, to analyse 
+how and to what extent processes of socio‐cultural exclusion emerge in 
+the subject representation and discoverability of “non‐dominant” 
+resources in public library OPACs, and to consider folksonomy as a 
+solution to any issues raised.
+Design/methodology/approach
+
+The paper first develops a critique of the dominant model of “inclusion”
+ within UK public libraries, drawing on feminist and critical theories 
+of identity. It then considers how this critique overlaps with and 
+offers fresh insights into major debates within subject indexing, and 
+develops a theoretical rationale for considering the potential of 
+folksonomy to intervene in more inclusive subject‐indexing design. A 
+user‐based critical interpretive methodology which understands OPACs as 
+texts open to multiple interpretations is developed, and a comparative 
+reading of standard OPACs and LibraryThing folksonomy is undertaken to 
+evaluate the discoverability and subject representation of LGBTQ and 
+ethnic minority resources.
+Findings
+
+LibraryThing folksonomy offers benefits over LCSH subject indexing in 
+the discoverability and representation of LGBTQ resources. However, the 
+folksonomy is dominated by US taggers, and this impacts on the tagging 
+of ethnic minority resources. Folksonomy, like traditional indexing, is 
+found to contain its own biases in worldview and subject representation.
+Originality/value
+
+The importance of subject indexing in developing inclusive library 
+services is highlighted and a new method for evaluating OPACs is 
+developed.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Social reproduction and exclusion in subject indexing</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 17:18:34</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-23 14:44:51</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_8VTE5ADJ" class="item book">
+			<h2>Sorting Things Out: Classification and its Consequences</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Bok</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Geoffrey C. Bowker</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Susan Leigh Star</td>
+					</tr>
+					<tr>
+					<th>Bokserie</th>
+						<td>Inside technology, 99-1592600-6</td>
+					</tr>
+					<tr>
+					<th>Ort</th>
+						<td>Cambridge, Massachusetts</td>
+					</tr>
+					<tr>
+					<th>Utgivare</th>
+						<td>MIT Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-0-262-02461-7</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>1999</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>A revealing and surprising look at how classification systems 
+can shape both worldviews and social interactions.
+
+What do a seventeenth-century mortality table (whose causes of death 
+include "fainted in a bath," "frighted," and "itch"); the identification
+ of South Africans during apartheid as European, Asian, colored, or 
+black; and the separation of machine- from hand-washables have in 
+common? All are examples of classification—the scaffolding of 
+information infrastructures.
+
+In Sorting Things Out, Geoffrey C. Bowker and Susan Leigh Star explore 
+the role of categories and standards in shaping the modern world. In a 
+clear and lively style, they investigate a variety of classification 
+systems, including the International Classification of Diseases, the 
+Nursing Interventions Classification, race classification under 
+apartheid in South Africa, and the classification of viruses and of 
+tuberculosis.
+
+The authors emphasize the role of invisibility in the process by which 
+classification orders human interaction. They examine how categories are
+ made and kept invisible, and how people can change this invisibility 
+when necessary. They also explore systems of classification as part of 
+the built information environment. Much as an urban historian would 
+review highway permits and zoning decisions to tell a city's story, the 
+authors review archives of classification design to understand how 
+decisions have been made. Sorting Things Out has a moral agenda, for 
+each standard and category valorizes some point of view and silences 
+another. Standards and classifications produce advantage or suffering. 
+Jobs are made and lost; some regions benefit at the expense of others. 
+How these choices are made and how we think about that process are at 
+the moral and political core of this work. The book is an important 
+empirical source for understanding the building of information 
+infrastructures.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Sorting things out</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 13:54:05</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-16 13:54:05</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_Q5DBU6MI" class="item conferencePaper">
+			<h2>Subject Indexing : The Challenge of LGBTQI Literature</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Konferensartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Jenny Bergenmar</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Koraljka Golub</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="http://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-96310">http://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-96310</a></td>
+					</tr>
+					<tr>
+					<th>Utgivare</th>
+						<td>CEUR-WS</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>203-210</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2020</td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-19 22:52:18</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>lnu.diva-portal.org</td>
+					</tr>
+					<tr>
+					<th>Namn på konferens</th>
+						<td>DHN 2020: Digital Humanities in the Nordic Countries, 5th Conference, Riga, Latvia, October 21-23, 2020</td>
+					</tr>
+					<tr>
+					<th>Språk</th>
+						<td>eng</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Despite a growing number of digital LGBTQI (lesbian, gay, 
+bisexual, transsexual, queer, intersex) history archives, and 
+research-driven digital LGBTQI initiatives, queer perspectives have not 
+been  ...</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Subject Indexing</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-19 22:52:27</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-19 22:52:27</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_LHSE7C49" class="item journalArticle">
+			<h2>Subjects in Doubt: The Ontogeny of Intersex in the Dewey Decimal Classification</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Melodie J. Fox</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://www.nomos-elibrary.de/index.php?doi=10.5771/0943-7444-2016-8-581">https://www.nomos-elibrary.de/index.php?doi=10.5771/0943-7444-2016-8-581</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>43</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>581-593</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>KNOWLEDGE ORGANIZATION</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0943-7444</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>Tidskriftsförkortning</th>
+						<td>KO</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.5771/0943-7444-2016-8-581">10.5771/0943-7444-2016-8-581</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 17:10:07</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>A concept that has experienced significant change in the Dewey
+ Decimal Classification (DDC) is "intersex people," historically known 
+as hermaphrodites or the condition of hermaphroditism. The 
+classification of the concept of intersex has changed in 14 out of the 
+23 editions of the DDC; it has changed in every edition since the 
+twelfth. It has had its own class, been completely removed, re-added, 
+and removed again. It has been moved around, made more specific, made 
+more general, and become a facet. Why has this particular concept 
+experienced so much change, and what does this mean to our libraries' 
+collocative integrity? Why is the understanding of the concept so 
+unstable? Is it the domain itself or the interference and dissonance of 
+popular with scientific understandings? This piece specifically 
+investigates the ontogeny of the concept of intersex/hermaphrodite 
+enriching the discussion by connecting it with epistemic authority and 
+concept theory.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Subjects in Doubt</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 17:10:08</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-23 14:45:40</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_67AHCV4R" class="item journalArticle">
+			<h2>The structuring of information through search: sorting waste with Google</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Jutta Haider</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://doi.org/10.1108/AJIM-12-2015-0189">https://doi.org/10.1108/AJIM-12-2015-0189</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>68</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>390-406</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Aslib Journal of Information Management</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2050-3806</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2016-01-01</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1108/AJIM-12-2015-0189">10.1108/AJIM-12-2015-0189</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 16:34:21</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>Emerald Insight</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Purpose The purpose of this paper is to explore informational 
+structures producing and organising the construction of waste sorting in
+ Sweden. It shows how the issue is constructed by it being searched for 
+in Google and how this contributes to the specific informational texture
+ of waste sorting in Sweden. It is guided by the following questions: 
+who are the main actors and which are the central topics featuring in 
+Google results on popular, suggested searches for waste sorting in 
+Sweden? What do the link relations between these tell the author about 
+the issue space that is formed around waste sorting in Sweden? How is 
+the construction of the notions of waste sorting and waste shaped in the
+ information available through Google’s features for related and other 
+relevant searches? Design/methodology/approach Waste sorting is 
+discussed as a practice structured along moral rules and as a 
+classification exercise. The study brings together two types of 
+material, results from searches carried out in Google and lists of 
+Google query suggestions for relevant search terms. These are analysed 
+with a mixed method approach, uniting quantitative network analysis and 
+qualitative content analysis of query suggestions. A sociomaterial 
+approach theoretically grounds the analysis. Findings Waste sorting in 
+Sweden emerges as an issue that is characterised by dense networks of 
+rules and regulation, focused in public authorities and government 
+agencies, which in turn address consumers, waste management businesses 
+and other authorities. Search engine use and waste sorting in Sweden are
+ shown to be joined together in various mundane everyday life practices 
+and practices of governance that become visible through the search 
+engine in form of search results and suggested searches. The search 
+engine is shown to work as a fluid classification system, which is also 
+created and shaped by its use. Originality/value The study offers a 
+novel methodological approach to studying the informational structures 
+of an issue and of its shaping through it being searched for. The 
+sociomaterially grounded analysis of Google as a fluid classification 
+system is original.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>The structuring of information through search</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 16:34:21</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-16 16:34:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Etiketter:</h3>
+				<ul class="tags">
+					<li>Classification</li>
+					<li>Search engines</li>
+					<li>Autocomplete</li>
+					<li>Environmental information</li>
+					<li>Recycling</li>
+					<li>Sociomaterial</li>
+				</ul>
+			</li>
+
+
+			<li id="item_S49T9DPQ" class="item journalArticle">
+			<h2>Three Decades Since Prejudices and Antipathies: A Study of Changes in the Library of Congress Subject Headings</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Steven A. Knowlton</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://doi.org/10.1300/J104v40n02_08">https://doi.org/10.1300/J104v40n02_08</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>40</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>123-145</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>Cataloging &amp; Classification Quarterly</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0163-9374</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>August 1, 2005</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Routledge
+_eprint: https://doi.org/10.1300/J104v40n02_08</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1300/J104v40n02_08">10.1300/J104v40n02_08</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-19 22:43:09</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>Taylor and Francis+NEJM</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>The Library of Congress Subject Headings have been criticized 
+for containing biased subject headings. One leading critic has been 
+Sanford Berman, whose 1971 monograph Prejudices and Antipathies: A Tract
+ on the LC Subject Heads Concerning People (P&amp;A), listed a number of
+ objectionable headings and proposed remedies. In the decades since 
+P&amp;A was first published, many of Berman's suggestions have been 
+implemented, while other headings remain unchanged. This paper compiles 
+all of Berman's suggestions and tracks the changes that have occurred; a
+ brief analysis of the remaining areas of bias is included.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Three Decades Since Prejudices and Antipathies</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-19 22:43:09</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-19 22:43:23</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Etiketter:</h3>
+				<ul class="tags">
+					<li>1933-; bias;</li>
+					<li>Berman</li>
+					<li>Sanford</li>
+					<li>subject cataloging; Library of Congress Subject Headings</li>
+				</ul>
+			</li>
+
+
+			<li id="item_WBCH5YIW" class="item journalArticle">
+			<h2>Totally Invisible: Asian American Representation in the Dewey Decimal Classification, 1876-1996</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Molly Higgins</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://www.nomos-elibrary.de/index.php?doi=10.5771/0943-7444-2016-8-609">https://www.nomos-elibrary.de/index.php?doi=10.5771/0943-7444-2016-8-609</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>43</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>8</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>609-621</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>KNOWLEDGE ORGANIZATION</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0943-7444</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2016</td>
+					</tr>
+					<tr>
+					<th>Tidskriftsförkortning</th>
+						<td>KO</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.5771/0943-7444-2016-8-609">10.5771/0943-7444-2016-8-609</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 17:09:12</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>The term "Asian American" emerged on college campuses in the 
+1960s to replace the term "Oriental." It was a political term, chosen by
+ students to gather people from different ethnic communities under one 
+pan-ethnic banner. We examine the representation of Asian American 
+materials in the first twenty-one pan editions B of the Dewey Decimal 
+Classification (DDQ and discusses the findings in relation to the 
+history of the term "Asian American." We aim to 1) relate existing 
+literature on bias and knowledge organization to Asian American studies 
+and critical race theories including the possessive investment in 
+whiteness and racial formation; 2) compare the history of the term 
+"Asian American" as a self-identifying term to the evolution of the term
+ in DDC; and 3) lay a historical foundation from which to consider the 
+treatment of the term "Asian American" in the contemporary DDC and by 
+extension other modern knowledge organization systems.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Totally Invisible</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 17:09:13</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-19 22:41:36</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_7F2N7LK9" class="item journalArticle">
+			<h2>Where is Childrens’ Voice in KO?</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Jihee Beak</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://www.nomos-elibrary.de/index.php?doi=10.5771/0943-7444-2015-5-284">https://www.nomos-elibrary.de/index.php?doi=10.5771/0943-7444-2015-5-284</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>42</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>284-289</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>KNOWLEDGE ORGANIZATION</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0943-7444</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>Tidskriftsförkortning</th>
+						<td>KO</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.5771/0943-7444-2015-5-284">10.5771/0943-7444-2015-5-284</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 17:15:17</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>The  purpose  of   this  paper  is  to  discuss  the  ethical 
+ considerations  of   knowledge  organization  sys-tems  in  light  of  
+ children’s  perspectives  by  applying  previous  literature  from  
+Smiraglia’s  bibliocentrism  (2009),  Bhaba’s third space theory (1994),
+ Vygotsky’s zone of  proximal development (1978), and Tennis’s ethical 
+rationale (2013). Given that there is  a  lack  of   attention  and  
+consideration  in  knowledge  organization  systems  for  children,  it 
+ is  not  absurd  to  claim  that  children  in  the  knowledge 
+organization domain tend to be treated as a marginalized user group. 
+Where can we find children’s voices in knowledge organi-zation systems? 
+How were these systems designed? The questions regarding the ethical 
+considerations are discussed. This paper contrib-utes  to  elevate  
+awareness  of   current  problems  in  knowledge  organization  systems 
+ for  children  and  bring  ethical  attention  to  develop knowledge 
+organization systems for children.</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 17:15:17</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-23 14:45:13</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_MK3XL44L" class="item journalArticle">
+			<h2>Which Ethics? Whose Morality?: An Analysis of Ethical Standards for Information Organization</h2>
+				<table>
+					<tbody><tr>
+						<th>Typ</th>
+						<td>Tidskriftsartikel</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Melodie J. Fox</td>
+					</tr>
+					<tr>
+						<th class="author">Författare</th>
+						<td>Austin Reece</td>
+					</tr>
+					<tr>
+					<th>Webbadress</th>
+						<td><a href="https://www.nomos-elibrary.de/index.php?doi=10.5771/0943-7444-2012-5-377">https://www.nomos-elibrary.de/index.php?doi=10.5771/0943-7444-2012-5-377</a></td>
+					</tr>
+					<tr>
+					<th>Band/Årgång</th>
+						<td>39</td>
+					</tr>
+					<tr>
+					<th>Nummer</th>
+						<td>5</td>
+					</tr>
+					<tr>
+					<th>Sidor</th>
+						<td>377-383</td>
+					</tr>
+					<tr>
+					<th>Publikation</th>
+						<td>KNOWLEDGE ORGANIZATION</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0943-7444</td>
+					</tr>
+					<tr>
+					<th>Datum</th>
+						<td>2012</td>
+					</tr>
+					<tr>
+					<th>Tidskriftsförkortning</th>
+						<td>KO</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.5771/0943-7444-2012-5-377">10.5771/0943-7444-2012-5-377</a></td>
+					</tr>
+					<tr>
+					<th>Hämtad den</th>
+						<td>2021-04-16 17:16:24</td>
+					</tr>
+					<tr>
+					<th>Bibliotekskatalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>Sammanfattning</th>
+						<td>Ethical standards are required at both the individual and 
+system levels of the information organization  enterprise,  but  are  
+those  standards  the  same?  For  example,  are  the  ethical  
+responsibilities  of DDC’s editorial board fundamentally the same as for
+ an individual cataloger? And, what are the con-sequences of decisions 
+made using different ethical frameworks to the users of knowledge 
+organization systems? A selection of ethical theories suitable for 
+evaluating moral dilemmas at all levels in informa-tion organization is 
+presented, including utilitarianism, deontology, and pragmatism, as well
+ as the more contemporary approaches of justice, feminist, and Derridean
+ ethics. Finally, a selection of criteria is out-lined, taken from the 
+existing ethical frameworks, to use as a starting point for development 
+of an ethical framework specifically for information organization.</td>
+					</tr>
+					<tr>
+					<th>Kort titel</th>
+						<td>Which Ethics?</td>
+					</tr>
+					<tr>
+					<th>Tillagd den</th>
+						<td>2021-04-16 17:16:25</td>
+					</tr>
+					<tr>
+					<th>Ändrad den</th>
+						<td>2021-04-23 14:45:59</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+		</ul>
+	
+</body></html>
