@@ -10,10 +10,11 @@
 
 
 
+<meta name="date" content="2021-06-22" />
 
-<title>Notes</title>
+<title>Lunch projects</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -22,6 +23,16 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<link href="site_libs/lfx-fullscreen-1.0.2/lfx-fullscreen-prod.css" rel="stylesheet" />
+<script src="site_libs/lfx-fullscreen-1.0.2/lfx-fullscreen-prod.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <link rel="shortcut icon" href="img/favicon.png">
@@ -313,19 +324,48 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Notes</h1>
+<h1 class="title toc-ignore">Lunch projects</h1>
+<h4 class="date">2021-06-22</h4>
 
 </div>
 
 
-<p>Research notes and additional writing.</p>
-<p>2021-06-22 - <a href="lunchprojects.html">Lunch projects</a></p>
-<p>2021-03-25 - <a href="sustainability.html">Sustainability, ideas and research methods</a></p>
-<p>2020-06-12 - <a href="criticism.html">On criticism and seminar culture</a></p>
-<p>2020-01-07 - <a href="taking.html">Taking a walk in the field of information practices</a></p>
-<p>2019-09-08 - <a href="dhoxss.html">Digital Humanities at Oxford Summer School 2019</a></p>
-<p>2019-04-13 - <a href="mapping.html">Mapping interlinked contributions to deep learning Github repositories</a></p>
-<p>2019-04-03 - <a href="mine.html">Mine and scrape MARC posts from the Internet Archive</a></p>
+<p>During this Spring, I came up with a few lunch projects to get to learn new things and occasionally get out of the home office. In this post, I will go through a few of these projects.</p>
+<div id="making-waffle-charts-of-my-research-outputs" class="section level2">
+<h2>Making waffle charts of my research outputs</h2>
+<p>Quick way to visualise research output topics using waffle charts in R.</p>
+<p><img src="lunchprojects_files/figure-html/unnamed-chunk-2-1.png" width="576" /></p>
+</div>
+<div id="making-generative-art" class="section level2">
+<h2>Making generative art</h2>
+<p>A simple way of turning another part of my creativity on. I used <a href="https://github.com/cutterkom/generativeart">the guide from this Github repo</a>.</p>
+<div class="figure">
+<img src="https://pbs.twimg.com/media/E2P8Y8iXoAQIoUl?format=jpg&amp;name=small" alt="" />
+<p class="caption">Generative art, blue wavy circle on light blue background.</p>
+</div>
+</div>
+<div id="restoring-and-tidyverseing-a-bike" class="section level2">
+<h2>Restoring and tidyverse:ing a bike</h2>
+<p>Bying a used racing bike was probably the best thing I’ve done for myself in a while. It’s a lot of fun, and I think it turned out quite nice with some <code>library(tidyverse)</code> stickers.</p>
+<div class="figure">
+<img src="https://pbs.twimg.com/media/E4J9Nk5XMAMiUKv?format=jpg&amp;name=small" alt="" />
+<p class="caption">Racing bicycle seen from above with Tidyverse stickers.</p>
+</div>
+<p>In Tidyverse code, the workflow would probably look something like this.</p>
+<pre><code>ggbike %&gt;% 
+    remove_rust() %&gt;% 
+    polish_frame() %&gt;%
+    oil_chain %&gt;%
+    place_sticker(&quot;tidyverse&quot;, &quot;xaringan&quot;, &quot;dplyr&quot;, &quot;knitr&quot;, &quot;rvest&quot;, &quot;tibble&quot;) -&gt; ggbike
+
+ggbike %&gt;% helmet()</code></pre>
+</div>
+<div id="scrolling-around-the-globe-looking-at-atolls" class="section level2">
+<h2>Scrolling around the globe looking at atolls</h2>
+<p>And finally, for the occasional procrastination session, scrolling around the globe looking at atolls using <code>library(leaflet)</code>.</p>
+<div id="htmlwidget-c966ed9c5442343aced4" style="width:576px;height:384px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c966ed9c5442343aced4">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"fullscreenControl":{"position":"topleft","pseudoFullscreen":false}},"setView":[[-8.531799,179.10051],11,[]],"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]}]},"evals":[],"jsHooks":[]}</script>
+</div>
 
 
 
