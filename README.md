@@ -84,8 +84,6 @@ XML och kontrollerade vokabulärer (*XML and Controlled Vocabularies*), 7.5 ECTS
 
 ## Further links
 
-[Email](mailto:bjorn.ekstrom[a]hb.se)
-
-[Github](https://github.com/bjornekstrom)
-
-[Twitter](https://twitter.com/bjornekstrom)
+* [Email](mailto:bjorn.ekstrom[a]hb.se)
+* [Github](https://github.com/bjornekstrom)
+* [Twitter](https://twitter.com/bjornekstrom)
