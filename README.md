@@ -1,6 +1,6 @@
 # Björn Ekström
 
-PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. I am currently writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I teach knowledge organisation and information search.
+PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. I am currently writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I teach knowledge organization and information search.
 
 ## Publications
 
@@ -28,7 +28,7 @@ Ekström, B., Jackson, C., Crowston, K., Østerlund, C. (2022). Tracing Knowledg
 
 Ekström, B. (2022). Från naturupplevelse till artdata. *SFIS vårkonferens*, Chalmers University of Technology, Gothenburg, Sweden. 10 June 2022.
 
-Ekström, B. (2022). Unfolding material constraints and opportunities in biodiversity citizen sci- ence information practices. *Conceptions of Library and Information Science (CoLIS) 11*, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.
+Ekström, B. (2022). Unfolding material constraints and opportunities in biodiversity citizen science information practices. *Conceptions of Library and Information Science (CoLIS) 11*, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.
 
 Graminius, C., Haider, J., Cardoso, N., Fedorowicz-Kruszewska, M., Ekström, B., Pilerot, O. (2022). LIS and environmental research: what, when, how?. *Conceptions of Library and Information Science (CoLIS) 11*, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.
 
