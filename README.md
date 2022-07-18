@@ -82,8 +82,9 @@ Introduktion till kunskapsorganisation (*Introduction to Knowledge Organization*
 
 XML och kontrollerade vokabulärer (*XML and Controlled Vocabularies*), 7.5 ECTS
 
-## Contact
+## Links
 
 * [Email](mailto:bjorn.ekstrom[a]hb.se)
 * [Github](https://github.com/bjornekstrom)
 * [Twitter](https://twitter.com/bjornekstrom)
+* [University of Borås profile page](https://www.hb.se/forskning/forskningsportal/forskare/BJEK/)
