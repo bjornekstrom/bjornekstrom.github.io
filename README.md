@@ -52,7 +52,7 @@ Ekström, B., Tattersall Wallin, E., & Marčetić, H. (2020). Programming Histor
 
 List of teaching assignments in courses at the University of Borås, Sweden.
 
-## First cycle
+### First cycle
 
 Biblioteket i samhället 1 (*Libraries in Society 1*), 7.5 ECTS
 
@@ -70,7 +70,7 @@ Kunskapsorganisation och sökteknik - grund (*Knowledge Organization and Search 
 
 Kunskapsorganisation och sökteknik med fokus explorativ sökteknik (*Knowledge Organization and Search techniques with Focus on Explorative Search Techniques*), 7.5 ECTS
 
-## Secondary cycle
+### Secondary cycle
 
 Biblioteks- och informationsvetenskap som forsknings- och professionsområde (*Library and Information Science as a Field of Research and Professional Work*), 7.5 ECTS
 
