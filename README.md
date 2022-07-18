@@ -4,8 +4,6 @@ PhD student and Lecturer at the Swedish School of Library and Information Scienc
 
 ## Publications
 
-[A list of publications is also available at Orcid](http://orcid.org/0000-0003-4187-7004).
-
 ### Journal articles
 
 Ekström, B. (in press). Thousands of examining eyes: Credibility, authority and validity in biodiversity citizen science data production. *Aslib Journal of Information Management*. [https://doi.org/10.1108/AJIM-10-2021-0292](https://doi.org/10.1108/AJIM-10-2021-0292)
@@ -86,5 +84,6 @@ XML och kontrollerade vokabulärer (*XML and Controlled Vocabularies*), 7.5 ECTS
 
 * [Email](mailto:bjorn.ekstrom[a]hb.se)
 * [Github](https://github.com/bjornekstrom)
+* [Orcid](http://orcid.org/0000-0003-4187-7004)
 * [Twitter](https://twitter.com/bjornekstrom)
 * [University of Borås profile page](https://www.hb.se/forskning/forskningsportal/forskare/BJEK/)
