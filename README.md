@@ -1,6 +1,6 @@
 # Björn Ekström
 
-PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. I am currently writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I teach knowledge organisation and information search.
+PhD student and Lecturer at the Swedish School of Library and Information Science, [University of Borås](https://hb.se), Sweden. I am currently writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I teach knowledge organisation and information search.
 
 ## Publications
 
@@ -8,19 +8,19 @@ PhD student and Lecturer at the Swedish School of Library and Information Scienc
 
 ### Journal articles
 
-Ekström, B. (in press). Thousands of examining eyes: Credibility, authority and validity in biodiversity citizen science data production. *Aslib Journal of Information Management*. https://doi.org/10.1108/AJIM-10-2021-0292
+Ekström, B. (in press). Thousands of examining eyes: Credibility, authority and validity in biodiversity citizen science data production. *Aslib Journal of Information Management*. [https://doi.org/10.1108/AJIM-10-2021-0292](https://doi.org/10.1108/AJIM-10-2021-0292)
 
-Ekström, B. (2022). A niche of their own: Variations of information practices in biodiversity citizen science. *Journal of Documentation*, *78*(7), 248–265. https://doi.org/10.1108/JD-07-2021-0146 
+Ekström, B. (2022). A niche of their own: Variations of information practices in biodiversity citizen science. *Journal of Documentation*, *78*(7), 248–265. [https://doi.org/10.1108/JD-07-2021-0146](https://doi.org/10.1108/JD-07-2021-0146)
 
-Ekström, B. (2022). Trace data visualisation enquiry: A methodological coupling for studying information practices in relation to information systems. *Journal of Documentation*, *78*(7), 141–159. https://doi.org/10.1108/JD-04-2021-0082
+Ekström, B. (2022). Trace data visualisation enquiry: A methodological coupling for studying information practices in relation to information systems. *Journal of Documentation*, *78*(7), 141–159. [https://doi.org/10.1108/JD-04-2021-0082](https://doi.org/10.1108/JD-04-2021-0082)
 
-Ekström, B. (2017). Vart är open access-rörelsen på väg? Fyra tendenser i svenska och brittiska open access-nätverk. *Tidskrift för ABM*, *2*(2), 5–35. http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-336644
+Ekström, B. (2017). Vart är open access-rörelsen på väg? Fyra tendenser i svenska och brittiska open access-nätverk. *Tidskrift för ABM*, *2*(2), 5–35. [http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-336644](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-336644)
 
-Ekström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMuseum och UbuWeb. *Tidskrift för ABM*, *2*(1), 4–14. http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-317148
+Ekström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMuseum och UbuWeb. *Tidskrift för ABM*, *2*(1), 4–14. [http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-317148](http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-317148)
 
 ### Book chapters
 
-Pennlert, J., Ekström, B., & Lorentzen, D. G. (2021). Teleoptical Perspectives on Digital Methods: Scientific Claims and Consequences. In S. Petersson (Ed.), *Digital Human Sciences*. Stockholm University Press. https://doi.org/10.16993/bbk.d
+Pennlert, J., Ekström, B., & Lorentzen, D. G. (2021). Teleoptical Perspectives on Digital Methods: Scientific Claims and Consequences. In S. Petersson (Ed.), *Digital Human Sciences*. Stockholm University Press. [https://doi.org/10.16993/bbk.d](https://doi.org/10.16993/bbk.d)
 
 ### Conference papers and presentations
 
@@ -38,7 +38,7 @@ Ekström, B. (2019). Developing a rule-based method for identifying researchers 
 
 Gunnarsson Lorenzen, D., Eklund, J., Nelhans, G., & Ekström, B. (2019). On the potential for detecting scientific issues and controversies on Twitter: A method for investigation conversations mentioning research. *17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2*, Rome, Italy, August 2019. (pp. 2189 - 2198).
 
-Ekström, B. (2017). The Illicit Information Community: Information—Practical Reflections on the Shadow Library AAARG. In P. Arvola, T. Hintsanen, S. Kari, S. Kolehma, S. Luolin, & J. Sillanpää (Eds.), Improving Quality of Life Through Information: Proceedings of the XXV Bobcatsss Symposium, Tampere, Finland, January 2017 (pp. 121–125). http://tampub.uta.fi/handle/10024/101894
+Ekström, B. (2017). The Illicit Information Community: Information—Practical Reflections on the Shadow Library AAARG. In P. Arvola, T. Hintsanen, S. Kari, S. Kolehma, S. Luolin, & J. Sillanpää (Eds.), *Improving Quality of Life Through Information: Proceedings of the XXV Bobcatsss Symposium*, Tampere, Finland, January 2017 (pp. 121–125). [http://tampub.uta.fi/handle/10024/101894](http://tampub.uta.fi/handle/10024/101894)
 
 ### Posters 
 
@@ -46,7 +46,7 @@ Ekström, B. (2019). Developing a rule-based method for identifying researchers 
 
 ### Reviews
 
-Ekström, B., Tattersall Wallin, E., & Marčetić, H. (2020). Programming Historian: Novice-friendly tutorials on digital methods. *Tidskrift För ABM*, 5(1), 71–75. https://www.diva-portal.org/smash/record.jsf?pid=diva2:1508542
+Ekström, B., Tattersall Wallin, E., & Marčetić, H. (2020). Programming Historian: Novice-friendly tutorials on digital methods. *Tidskrift För ABM*, 5(1), 71–75. [https://www.diva-portal.org/smash/record.jsf?pid=diva2:1508542](https://www.diva-portal.org/smash/record.jsf?pid=diva2:1508542)
 
 ## Teaching
 
@@ -82,7 +82,7 @@ Introduktion till kunskapsorganisation (*Introduction to Knowledge Organization*
 
 XML och kontrollerade vokabulärer (*XML and Controlled Vocabularies*), 7.5 ECTS
 
-## Further links
+## Contact
 
 * [Email](mailto:bjorn.ekstrom[a]hb.se)
 * [Github](https://github.com/bjornekstrom)
