@@ -4,6 +4,8 @@ PhD student and Lecturer at the Swedish School of Library and Information Scienc
 
 ## Publications
 
+![Publication waffle chart](img/publication-waffle.png)
+
 ### Journal articles
 
 Ekström, B. (in press). Thousands of examining eyes: Credibility, authority and validity in biodiversity citizen science data production. *Aslib Journal of Information Management*. [https://doi.org/10.1108/AJIM-10-2021-0292](https://doi.org/10.1108/AJIM-10-2021-0292)
