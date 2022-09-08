@@ -4,7 +4,7 @@ PhD student and Lecturer at the Swedish School of Library and Information Scienc
 
 ## Publications
 
-![Publication waffle chart](img/publication-waffle.png)
+![Publication waffle chart](img/publication_waffle.png)
 
 ### Journal articles
 
