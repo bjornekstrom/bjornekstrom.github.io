@@ -24,9 +24,9 @@ Pennlert, J., Ekström, B., & Lorentzen, D. G. (2021). Teleoptical Perspectives 
 
 ### Conference papers and presentations
 
-Yousefi Mojir, K, Haider, J., Johnsson, V., Ekström, B., Eklund, S. (2022). Vad kan informationsvetenskap bidra med i klimatkrisen? *Gothenburg Book Fair*, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.
-
 Ekström, B (2022). Från fältarbete till artdata. *Gothenburg Book Fair*, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.
+
+Yousefi Mojir, K, Haider, J., Johnsson, V., Ekström, B., Eklund, S. (2022). Vad kan informationsvetenskap bidra med i klimatkrisen? *Gothenburg Book Fair*, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.
 
 Ekström, B., Jackson, C., Crowston, K., Østerlund, C. (2022). Tracing Knowledge Production in an Online Citizen Science Project. *After Method in Organization Studies IV (AMOS): The epistemology of practice*, Mälardalen University, Västerås, Sweden. 16-17 June 2022.
 
