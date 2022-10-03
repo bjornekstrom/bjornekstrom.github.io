@@ -52,6 +52,10 @@ Ekström, B. (2019). Developing a rule-based method for identifying researchers 
 
 Ekström, B., Tattersall Wallin, E., & Marčetić, H. (2020). Programming Historian: Novice-friendly tutorials on digital methods. *Tidskrift För ABM*, 5(1), 71–75. [https://www.diva-portal.org/smash/record.jsf?pid=diva2:1508542](https://www.diva-portal.org/smash/record.jsf?pid=diva2:1508542)
 
+### Acknowledgements
+
+Nelhans, G. & Nolin, J. (2022). Anti-transparency within the EU shift to open science. *Science and Public Policy*, scac093, https://doi.org/10.1093/scipol/scac039
+
 ## Teaching
 
 List of teaching assignments in courses at the University of Borås, Sweden.
