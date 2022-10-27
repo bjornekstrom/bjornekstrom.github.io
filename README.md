@@ -22,6 +22,8 @@ Pennlert, J., Ekström, B., & Lorentzen, D. G. (2021). Teleoptical Perspectives 
 
 ### Conference papers and presentations
 
+Ekström, Björn (2022). Unfolding material constraints and opportunities in biodiversity citizen science information practices. In Proceedings of CoLIS, the Tenth International Conference on Conceptions of Library and Information Science, Oslo, Norway, May29 - June 1, 2022. Information Research, 27(Special issue), paper colis2236. Retrieved from http://InformationR.net/ir/27-SpIssue/CoLIS2022/colis2236.html. (Archived by the Internet Archive at ...) https://doi.org/10.47989/ircolis2236
+
 Ekström, B. (2022). Från fältarbete till artdata. *Gothenburg Book Fair*, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.
 
 Yousefi Mojir, K, Haider, J., Johnsson, V., Ekström, B., Eklund, S. (2022). Vad kan informationsvetenskap bidra med i klimatkrisen? *Gothenburg Book Fair*, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.
@@ -29,8 +31,6 @@ Yousefi Mojir, K, Haider, J., Johnsson, V., Ekström, B., Eklund, S. (2022). Vad
 Ekström, B., Jackson, C., Crowston, K., Østerlund, C. (2022). Tracing Knowledge Production in an Online Citizen Science Project. *After Method in Organization Studies IV (AMOS): The epistemology of practice*, Mälardalen University, Västerås, Sweden. 16-17 June 2022.
 
 Ekström, B. (2022). Från naturupplevelse till artdata. *SFIS vårkonferens*, Chalmers University of Technology, Gothenburg, Sweden. 10 June 2022.
-
-Ekström, B. (2022). Unfolding material constraints and opportunities in biodiversity citizen science information practices. *Conceptions of Library and Information Science (CoLIS) 11*, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.
 
 Graminius, C., Haider, J., Cardoso, N., Fedorowicz-Kruszewska, M., Ekström, B., Pilerot, O. (2022). LIS and environmental research: what, when, how?. *Conceptions of Library and Information Science (CoLIS) 11*, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.
 
