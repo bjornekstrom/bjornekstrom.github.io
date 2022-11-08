@@ -93,6 +93,7 @@ XML och kontrollerade vokabulärer (*XML and Controlled Vocabularies*), 7.5 ECTS
 * [Email](mailto:bjorn.ekstrom[a]hb.se)
 * [Github](https://github.com/bjornekstrom)
 * [Google Scholar](https://scholar.google.com/citations?user=o-Nw1P0AAAAJ)
+* [Mastodon](https://mastodon.social/@bjornekstrom)
 * [Orcid](http://orcid.org/0000-0003-4187-7004)
 * [Twitter](https://twitter.com/bjornekstrom)
-* [University of Borås profile page](https://www.hb.se/forskning/forskningsportal/forskare/BJEK/)
+* [University of Borås profile page](https://www.hb.se/en/research/research-portal/researchers/BJEK/)
