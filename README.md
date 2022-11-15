@@ -88,6 +88,12 @@ Introduktion till kunskapsorganisation (*Introduction to Knowledge Organization*
 
 XML och kontrollerade vokabulärer (*XML and Controlled Vocabularies*), 7.5 ECTS
 
+## Memberships
+
+4S - Society for Social Studies of Science
+
+Svensk biblioteksförening
+
 ## Further links
 
 * [Email](mailto:bjorn.ekstrom[a]hb.se)
