@@ -42,6 +42,10 @@ Gunnarsson Lorenzen, D., Eklund, J., Nelhans, G., & Ekström, B. (2019). On the 
 
 Ekström, B. (2017). The Illicit Information Community: Information—Practical Reflections on the Shadow Library AAARG. In P. Arvola, T. Hintsanen, S. Kari, S. Kolehma, S. Luolin, & J. Sillanpää (Eds.), *Improving Quality of Life Through Information: Proceedings of the XXV Bobcatsss Symposium*, Tampere, Finland, January 2017 (pp. 121–125). [http://tampub.uta.fi/handle/10024/101894](http://tampub.uta.fi/handle/10024/101894)
 
+### Editorship
+
+Barry, B. (2014). *Music in Text*. Bläck charm nostalgi vassa tänder.
+
 ### Posters 
 
 Ekström, B. (2019). Developing a rule-based method for identifying researchers on Twitter: The case of vaccine discussions. *Digital Humanities at Oxford Summer School*, University of Oxford, Oxford, United Kingdom.
@@ -91,6 +95,8 @@ XML och kontrollerade vokabulärer (*XML and Controlled Vocabularies*), 7.5 ECTS
 ## Memberships
 
 4S - Society for Social Studies of Science
+
+ISKO
 
 Svensk biblioteksförening
 
