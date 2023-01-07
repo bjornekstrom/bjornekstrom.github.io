@@ -8,7 +8,7 @@ PhD student and Lecturer at the Swedish School of Library and Information Scienc
 
 ### Journal articles
 
-Ekström, B. (in press). Thousands of examining eyes: Credibility, authority and validity in biodiversity citizen science data production. *Aslib Journal of Information Management*. [https://doi.org/10.1108/AJIM-10-2021-0292](https://doi.org/10.1108/AJIM-10-2021-0292)
+Ekström, B. (2023). Thousands of examining eyes: Credibility, authority and validity in biodiversity citizen science data production. *Aslib Journal of Information Management*, *75*(1), 149-170. [https://doi.org/10.1108/AJIM-10-2021-0292](https://doi.org/10.1108/AJIM-10-2021-0292)
 
 Ekström, B. (2022). A niche of their own: Variations of information practices in biodiversity citizen science. *Journal of Documentation*, *78*(7), 248–265. [https://doi.org/10.1108/JD-07-2021-0146](https://doi.org/10.1108/JD-07-2021-0146)
 
