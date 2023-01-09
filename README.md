@@ -24,7 +24,7 @@ Pennlert, J., Ekström, B., & Lorentzen, D. G. (2021). Teleoptical Perspectives 
 
 ### Conference papers and presentations
 
-Ekström, B. (2022). Unfolding material constraints and opportunities in biodiversity citizen science information practices. In Proceedings of CoLIS, the Tenth International Conference on Conceptions of Library and Information Science, Oslo, Norway, May 29 - June 1, 2022. Information Research, 27(Special issue), paper colis2236. Retrieved from http://InformationR.net/ir/27-SpIssue/CoLIS2022/colis2236.html. (Archived by the Internet Archive at ...) https://doi.org/10.47989/ircolis2236
+Ekström, B. (2022). Unfolding material constraints and opportunities in biodiversity citizen science information practices. In Proceedings of CoLIS, the Tenth International Conference on Conceptions of Library and Information Science, Oslo, Norway, May 29 - June 1, 2022. Information Research, 27(Special issue), paper colis2236. Retrieved from http://InformationR.net/ir/27-SpIssue/CoLIS2022/colis2236.html. https://doi.org/10.47989/ircolis2236
 
 Ekström, B. (2022). Från fältarbete till artdata. *Gothenburg Book Fair*, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.
 
