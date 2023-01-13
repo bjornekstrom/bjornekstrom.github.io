@@ -4,7 +4,7 @@
 
 PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. I am currently writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I teach 🗂 knowledge organization and 🔍 information search.
 
-## Publications
+## Research
 
 ### Journal articles
 
