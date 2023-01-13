@@ -22,9 +22,17 @@ Ekström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMus
 
 Pennlert, J., Ekström, B., & Lorentzen, D. G. (2021). Teleoptical Perspectives on Digital Methods: Scientific Claims and Consequences. In S. Petersson (Ed.), *Digital Human Sciences*. Stockholm University Press. [https://doi.org/10.16993/bbk.d](https://doi.org/10.16993/bbk.d)
 
-### Conference papers and presentations
+### Conference papers in proceedings
 
 Ekström, B. (2022). Unfolding material constraints and opportunities in biodiversity citizen science information practices. In Proceedings of CoLIS, the Tenth International Conference on Conceptions of Library and Information Science, Oslo, Norway, May 29 - June 1, 2022. Information Research, 27(Special issue), paper colis2236. Retrieved from http://InformationR.net/ir/27-SpIssue/CoLIS2022/colis2236.html. https://doi.org/10.47989/ircolis2236
+
+Ekström, B. (2019). Developing a rule-based method for identifying researchers on Twitter: The case of vaccine discussions. *17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2*, Rome, Italy, August 2019, (pp. 2618 - 2619).
+
+Gunnarsson Lorenzen, D., Eklund, J., Nelhans, G., & Ekström, B. (2019). On the potential for detecting scientific issues and controversies on Twitter: A method for investigation conversations mentioning research. *17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2*, Rome, Italy, August 2019. (pp. 2189 - 2198).
+
+Ekström, B. (2017). The Illicit Information Community: Information—Practical Reflections on the Shadow Library AAARG. In P. Arvola, T. Hintsanen, S. Kari, S. Kolehma, S. Luolin, & J. Sillanpää (Eds.), *Improving Quality of Life Through Information: Proceedings of the XXV Bobcatsss Symposium*, Tampere, Finland, January 2017 (pp. 121–125). [http://tampub.uta.fi/handle/10024/101894](http://tampub.uta.fi/handle/10024/101894)
+
+### Presentations
 
 Ekström, B. (2022). Från fältarbete till artdata. *Gothenburg Book Fair*, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.
 
@@ -37,12 +45,6 @@ Ekström, B. (2022). Från naturupplevelse till artdata. *SFIS vårkonferens*, C
 Graminius, C., Haider, J., Cardoso, N., Fedorowicz-Kruszewska, M., Ekström, B., Pilerot, O. (2022). LIS and environmental research: what, when, how?. *Conceptions of Library and Information Science (CoLIS) 11*, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.
 
 Ekström, B., Jackson, C., & Østerlund, C. (2021). Tracing Hyperlinks: How to support different forms of presence and knowledge production in an online citizen science community? *Good Relations: Practices and Methods in Unequal and Uncertain Worlds. 4S Annual Meeting*. Toronto, Canada. 6-9 October 2021.
-
-Ekström, B. (2019). Developing a rule-based method for identifying researchers on Twitter: The case of vaccine discussions. *17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2*, Rome, Italy, August 2019, (pp. 2618 - 2619).
-
-Gunnarsson Lorenzen, D., Eklund, J., Nelhans, G., & Ekström, B. (2019). On the potential for detecting scientific issues and controversies on Twitter: A method for investigation conversations mentioning research. *17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2*, Rome, Italy, August 2019. (pp. 2189 - 2198).
-
-Ekström, B. (2017). The Illicit Information Community: Information—Practical Reflections on the Shadow Library AAARG. In P. Arvola, T. Hintsanen, S. Kari, S. Kolehma, S. Luolin, & J. Sillanpää (Eds.), *Improving Quality of Life Through Information: Proceedings of the XXV Bobcatsss Symposium*, Tampere, Finland, January 2017 (pp. 121–125). [http://tampub.uta.fi/handle/10024/101894](http://tampub.uta.fi/handle/10024/101894)
 
 ### Editorship
 
