@@ -98,7 +98,7 @@ XML och kontrollerade vokabulärer (*XML and Controlled Vocabularies*), 7.5 ECTS
 
 ## Memberships
 
-4S, Society for Social Studies of Science
+4S - Society for Social Studies of Science
 
 ISKO UK
 
