@@ -18,7 +18,7 @@ Ekström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMus
 
 ### Book chapters
 
-Pennlert, J., Ekström, B., & Lorentzen, D. G. (2021). Teleoptical Perspectives on Digital Methods: Scientific Claims and Consequences. In S. Petersson (Ed.), *Digital Human Sciences*. Stockholm University Press. [https://doi.org/10.16993/bbk.d](https://doi.org/10.16993/bbk.d)
+Pennlert, J., Ekström, B., & Gunnarsson Lorentzen, D. (2021). Teleoptical Perspectives on Digital Methods: Scientific Claims and Consequences. In S. Petersson (Ed.), *Digital Human Sciences*. Stockholm University Press. [https://doi.org/10.16993/bbk.d](https://doi.org/10.16993/bbk.d)
 
 ### Conference papers in proceedings
 
