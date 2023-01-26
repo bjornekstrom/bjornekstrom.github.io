@@ -44,10 +44,6 @@ Graminius, C., Haider, J., Cardoso, N., Fedorowicz-Kruszewska, M., Ekström, B.,
 
 Ekström, B., Jackson, C., & Østerlund, C. (2021). Tracing Hyperlinks: How to support different forms of presence and knowledge production in an online citizen science community? *Good Relations: Practices and Methods in Unequal and Uncertain Worlds. 4S Annual Meeting*. Toronto, Canada. 6-9 October 2021.
 
-### Editorship
-
-Barry, B. (2014). *Music in Text*. Bläck charm nostalgi vassa tänder.
-
 ### Posters 
 
 Ekström, B. (2019). Developing a rule-based method for identifying researchers on Twitter: The case of vaccine discussions. *Digital Humanities at Oxford Summer School*, University of Oxford, Oxford, United Kingdom.
