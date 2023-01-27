@@ -98,7 +98,7 @@ ISKO UK
 
 Svensk biblioteksförening
 
-## Further links
+## Links
 
 * 🔗 [Email](mailto:bjorn.ekstrom[a]hb.se)
 * 🔗 [Github](https://github.com/bjornekstrom)
