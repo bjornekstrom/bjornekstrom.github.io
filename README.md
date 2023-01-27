@@ -1,4 +1,4 @@
-<h1><font color="#32a852">Björn Ekström</font></h1>
+<h1 style="color:#32a852">Björn Ekström</h1>
 
 I am a PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. Currently, I'm writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I teach 🗂 knowledge organization and 🔍 information search.
 
