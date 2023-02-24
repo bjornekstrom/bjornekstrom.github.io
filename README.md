@@ -1,6 +1,8 @@
 # Björn Ekström
 
-I am a PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. Currently, I'm writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I mainly teach courses in 🗂 knowledge organization and 🔍 information search.
+🌱 🌸 🍄 🐿 🦅 🐟 🔍 📖 🗂 💾
+
+I am a PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. Currently, I'm writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I mainly teach courses in  knowledge organization and information search.
 
 ## Research
 
