@@ -26,7 +26,7 @@ Ekström, B. (2022). Unfolding material constraints and opportunities in biodive
 
 Ekström, B. (2019). Developing a rule-based method for identifying researchers on Twitter: The case of vaccine discussions. *17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2*, Rome, Italy, August 2019, (pp. 2618 - 2619).
 
-Gunnarsson Lorenzen, D., Eklund, J., Nelhans, G., & Ekström, B. (2019). On the potential for detecting scientific issues and controversies on Twitter: A method for investigation conversations mentioning research. *17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2*, Rome, Italy, August 2019. (pp. 2189 - 2198).
+Gunnarsson Lorentzen, D., Eklund, J., Nelhans, G., & Ekström, B. (2019). On the potential for detecting scientific issues and controversies on Twitter: A method for investigation conversations mentioning research. *17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2*, Rome, Italy, August 2019. (pp. 2189 - 2198).
 
 Ekström, B. (2017). The Illicit Information Community: Information—Practical Reflections on the Shadow Library AAARG. In P. Arvola, T. Hintsanen, S. Kari, S. Kolehma, S. Luolin, & J. Sillanpää (Eds.), *Improving Quality of Life Through Information: Proceedings of the XXV Bobcatsss Symposium*, Tampere, Finland, January 2017 (pp. 121–125). [http://tampub.uta.fi/handle/10024/101894](http://tampub.uta.fi/handle/10024/101894)
 
