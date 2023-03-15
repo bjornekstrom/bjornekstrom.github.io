@@ -2,7 +2,7 @@
 
 🌱 📚 🔍
 
-I am a PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. Currently, I'm writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I am especially interested in the interplay of information and technology between researchers and the public in distributed research projects. Other research interests include science and technology studies (STS), scholarly communication and digital methods. I mainly teach courses in  knowledge organisation and information search.
+I am a PhD student and Lecturer at the Swedish School of Library and Information Science, University of Borås, Sweden. Currently, I am writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects. I am especially interested in the interplay of information and technology between researchers and the public in distributed research projects. Other research interests include science and technology studies (STS), scholarly communication and digital methods. I mainly teach courses in  knowledge organisation and information search.
 
 ## Research
 
