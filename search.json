@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Björn Ekström",
+    "section": "",
+    "text": "I am a PhD student and Lecturer at the Swedish School of Library and Information Science (SSLIS), University of Borås, Sweden. Currently, I am writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects.\nI am especially interested in the interplay of information and technology between researchers and the public in distributed research projects. Other research interests include science and technology studies (STS), scholarly communication and digital methods.\nI mainly teach courses related to knowledge organisation and information search.\n\nEmail\nGithub\nGoogle Scholar\nMastodon\nOrcid\nResearchGate\nUniversity of Borås profile page."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "I develop and maintain teaching resources, research tools and audio software.\naudio-recorder - Audio recorder built in Pure Data.\nbjornsmixer - Eight track looping sample mixer built in Pure Data.\nindexering-konvertering - Jupyter Notebook (in Swedish) to handle and convert index terms for manifestations.\nprecision-recall - Jupyter Notebook (in Swedish) for calculating precision and recall."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "List of teaching assignments in courses at the University of Borås, Sweden."
+  },
+  {
+    "objectID": "teaching.html#first-cycle",
+    "href": "teaching.html#first-cycle",
+    "title": "Teaching",
+    "section": "First cycle",
+    "text": "First cycle\nBiblioteket i samhället 1 (Libraries in Society 1), 7.5 ECTS\nBibliotekens redskap och arbetsmetoder 2 (Methods and Tools in Libraries 2), 7.5 ECTS\nKandidatuppsats (Bachelor thesis), 15 ECTS\nKunskapsorganisation 1: Klassifikation (Knowledge Organization 1: Classification), 7.5 ECTS\nKunskapsorganisation 2: Kontrollerade vokabulärer (Knowledge Organization 2: Controlled Vocabularies), 7.5 ECTS\nKunskapsorganisation 3: Bibliografisk samverkan (Knowledge Organization 3: Bibliographic Collaboration), 7.5 ECTS\nKunskapsorganisation och sökteknik - grund (Knowledge Organization and Search techniques, Introduction), 15 ECTS\nKunskapsorganisation och sökteknik med fokus explorativ sökteknik (Knowledge Organization and Search techniques with Focus on Explorative Search Techniques), 7.5 ECTS"
+  },
+  {
+    "objectID": "teaching.html#secondary-cycle",
+    "href": "teaching.html#secondary-cycle",
+    "title": "Teaching",
+    "section": "Secondary cycle",
+    "text": "Secondary cycle\nBiblioteks- och informationsvetenskap som forsknings- och professionsområde (Library and Information Science as a Field of Research and Professional Work), 7.5 ECTS\nDigitala metoder (Digital Methods), 7.5 ECTS\nInformation Retrieval 1, 7.5 ECTS\nIntroduktion till kunskapsorganisation (Introduction to Knowledge Organization), 7.5 ECTS\nXML och kontrollerade vokabulärer (XML and Controlled Vocabularies), 7.5 ECTS"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Ekström, B. (2023). Thousands of examining eyes: credibility, authority and validity in biodiversity citizen science data production. Aslib Journal of Information Management. 75(1), 149-170. https://doi.org/10.1108/AJIM-10-2021-0292\nEkström, B. (2022). A niche of their own: Variations of information practices in biodiversity citizen science. Journal of Documentation, 78(7), 248-265. https://doi.org/10.1108/JD-07-2021-0146\nEkström, B. (2022). Trace data visualisation enquiry: A methodological coupling for studying in- formation practices in relation to information systems. Journal of Documentation, 78(7), 141-159. https://doi.org/10.1108/JD-04-2021-0082\nEkström, B. (2017). Vart är open access-rörelsen på väg? Fyra tendenser i svenska och brittiska open access-nätverk. Tidskrift för ABM, 2(2), 5-35.\nEkström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMuseum och UbuWeb. Tidskrift för ABM, 2(1), 4-14."
+  },
+  {
+    "objectID": "research.html#journal-articles",
+    "href": "research.html#journal-articles",
+    "title": "Research",
+    "section": "",
+    "text": "Ekström, B. (2023). Thousands of examining eyes: credibility, authority and validity in biodiversity citizen science data production. Aslib Journal of Information Management. 75(1), 149-170. https://doi.org/10.1108/AJIM-10-2021-0292\nEkström, B. (2022). A niche of their own: Variations of information practices in biodiversity citizen science. Journal of Documentation, 78(7), 248-265. https://doi.org/10.1108/JD-07-2021-0146\nEkström, B. (2022). Trace data visualisation enquiry: A methodological coupling for studying in- formation practices in relation to information systems. Journal of Documentation, 78(7), 141-159. https://doi.org/10.1108/JD-04-2021-0082\nEkström, B. (2017). Vart är open access-rörelsen på väg? Fyra tendenser i svenska och brittiska open access-nätverk. Tidskrift för ABM, 2(2), 5-35.\nEkström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMuseum och UbuWeb. Tidskrift för ABM, 2(1), 4-14."
+  },
+  {
+    "objectID": "research.html#book-chapters",
+    "href": "research.html#book-chapters",
+    "title": "Research",
+    "section": "Book chapters",
+    "text": "Book chapters\nPennlert, J., Ekström, B., & Lorentzen, D. G. (2021). Teleoptical perspectives on digital methods: Scientific claims and consequences. In S. Petersson (Ed.), Digital human sciences. Stockholm University Press. https://doi.org/10.16993/bbk.d"
+  },
+  {
+    "objectID": "research.html#conference-papers-in-proceedings",
+    "href": "research.html#conference-papers-in-proceedings",
+    "title": "Research",
+    "section": "Conference papers in proceedings",
+    "text": "Conference papers in proceedings\nEkström, B. (2022). Unfolding material constraints and opportunities in biodiversity citizen science information practices. In Proceedings of CoLIS, the Eleventh International Conference on Conceptions of Library and Information Science, Oslo, Norway, May 29 - June 1, 2022. Information Research, 27, (Special issue), paper colis2236. https://doi.org/10.47989/ircolis2236\nEkström, B. (2019). Developing a rule-based method for identifying researchers on Twitter: The case of vaccine discussions. In 17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2, 2019, (pp. 2618-2619).\nGunnarsson Lorentzen, D., Eklund, J., Nelhans, G., & Ekström, B. (2019). On the potential for detecting scientific issues and controversies on Twitter: A method for investigation conversations mentioning research. In 17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2, 2019. (pp. 2189–2198).\nEkström, B. (2017). The illicit information community: Information-practical reflections on the shadow library AAARG, In P. Arvola, T. Hintsanen, S. Kari, S. Kolehma, S. Luolin, J. Sillanpää (Eds.), Improving Quality of Life Through Information: Proceedings of the XXV Bobcatsss Symposium, Tampere, Finland, January 2017. https://trepo.tuni.fi/handle/10024/101894"
+  },
+  {
+    "objectID": "research.html#editorship",
+    "href": "research.html#editorship",
+    "title": "Research",
+    "section": "Editorship",
+    "text": "Editorship\nBarry, B. (2014). Music in text. Bläck charm nostalgi vassa tänder."
+  },
+  {
+    "objectID": "research.html#presentations",
+    "href": "research.html#presentations",
+    "title": "Research",
+    "section": "Presentations",
+    "text": "Presentations\nEkström, B. (2023). Understanding wind power search queries and results with RAT. RAT Community Meeting, Hamburg University of Applied Sciences, Hamburg, Germany. 8 September 2023.\nEkström, B. (2022). Från fältarbete till artdata. Gothenburg Book Fair, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.\nEkström, B., Jackson, C., Crowston, K., & Østerlund, C. (2022). Tracing Knowledge Production in an Online Citizen Science Project. After Method in Organization Studies IV (AMOS): The Epistemology of Practice, Mälardalen University, Västerås, Sweden. 16-17 June 2022.\nEkström, B. (2022). Från naturupplevelse till artdata. SFIS vårkonferens, Chalmers University of Technology, Gothenburg, Sweden. 10 June 2022.\nEkström, B., Jackson, C., & Østerlund, C. (2021). Tracing Hyperlinks: How to support different forms of presence and knowledge production in an online citizen science community? Good Relations: Practices and Methods in Unequal and Uncertain Worlds. 4S Annual Meeting. Toronto, Canada. 6-9 October 2021."
+  },
+  {
+    "objectID": "research.html#panels",
+    "href": "research.html#panels",
+    "title": "Research",
+    "section": "Panels",
+    "text": "Panels\nGraminius, C., Haider, J., Cardoso, N., Fedorowicz-Kruszewska, M., Ekström, B., & Pilerot, O. (2022). LIS and environmental research: what, when, how?. Conceptions of Library and Information Science 11, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.\nYousefi Mojir, K, Haider, J., Johansson, V., Ekström, B., & Eklund, S. (2022). Vad kan informationsvetenskap bidra med i klimatkrisen? Gothenburg Book Fair, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022."
+  },
+  {
+    "objectID": "research.html#reports",
+    "href": "research.html#reports",
+    "title": "Research",
+    "section": "Reports",
+    "text": "Reports\nHaider, J., Ekström, B., & Tattersall Wallin, E., Gunnarsson Lorentzen, D., Rödl, M., & Söderberg, N. (2023). Tracing online information about wind power in Sweden: An exploratory quantitative study of broader trends. Mistra Environmental Communication. http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-29496"
+  },
+  {
+    "objectID": "research.html#posters",
+    "href": "research.html#posters",
+    "title": "Research",
+    "section": "Posters",
+    "text": "Posters\nEkström, B. (2019). Developing a rule-based method for identifying researchers on Twitter: The case of vaccine discussions. 17th International Conference on Scientometrics and Informetrics, ISSI 2019 - Proceedings Volume 2, 2019.\nEkström, B. (2019). Developing a rule-based method for identifying researchers on Twitter: The case of vaccine discussions. Digital Humanities at Oxford Summer School, University of Oxford, Oxford, United Kingdom."
+  },
+  {
+    "objectID": "research.html#reviews",
+    "href": "research.html#reviews",
+    "title": "Research",
+    "section": "Reviews",
+    "text": "Reviews\nEkström, B., Tattersall Wallin, E., & Marčetić, H. (2020). Programming historian: Novice-friendly tutorials on digital methods. Tidskrift för ABM, 5(1), 71-75."
+  },
+  {
+    "objectID": "research.html#acknowledgments",
+    "href": "research.html#acknowledgments",
+    "title": "Research",
+    "section": "Acknowledgments",
+    "text": "Acknowledgments\nGraminius, C. (2023). Open letters and climate communication: The professional roles and identities of researchers in times of crisis. Environmental Communication, 1–13. https://doi.org/10.1080/17524032.2023.2225765\nNelhans, G., & Nolin, J. (2022). Anti-transparency within the EU shift to open science. Science and Public Policy, 49(6), 928-941, https://doi.org/10.1093/scipol/scac039"
+  },
+  {
+    "objectID": "research.html#memberships",
+    "href": "research.html#memberships",
+    "title": "Research",
+    "section": "Memberships",
+    "text": "Memberships\n4S (Society for Social Studies of Science)\nSvensk biblioteksförening"
+  }
+]
