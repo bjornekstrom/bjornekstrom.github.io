@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Björn Ekström",
     "section": "",
-    "text": "I am a PhD student and Lecturer at the Swedish School of Library and Information Science (SSLIS), University of Borås, Sweden. Currently, I am writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects.\nI am especially interested in the interplay of information and technology between researchers and the public in distributed research projects. Other research interests include science and technology studies (STS), scholarly communication and digital methods.\nI mainly teach courses related to knowledge organisation and information search.\n\nEmail\nGithub\nGoogle Scholar\nMastodon\nOrcid\nResearchGate\nUniversity of Borås profile page."
+    "text": "I am a PhD student and Lecturer at the Swedish School of Library and Information Science (SSLIS), University of Borås, Sweden. Currently, I am writing a doctoral thesis on information practices in biodiversity citizen science, i.e., public monitoring of the flora and fauna in large-scale, distributed research projects.\nI am especially interested in the interplay of information and technology between researchers and the public in distributed research projects. Other research interests include science and technology studies (STS), scholarly communication and digital methods.\nI mainly teach courses related to knowledge organisation and information search.\nGoogle Scholar | Orcid | ResearchGate | University of Borås profile page"
   },
   {
     "objectID": "software.html",
     "href": "software.html",
     "title": "Software",
     "section": "",
-    "text": "I develop and maintain teaching resources, research tools and audio software.\naudio-recorder - Audio recorder built in Pure Data.\nbjornsmixer - Eight track looping sample mixer built in Pure Data.\nindexering-konvertering - Jupyter Notebook (in Swedish) to handle and convert index terms for manifestations.\nprecision-recall - Jupyter Notebook (in Swedish) for calculating precision and recall."
+    "text": "List of software developed."
   },
   {
     "objectID": "teaching.html",
@@ -39,14 +39,14 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "Ekström, B. (2023). Thousands of examining eyes: credibility, authority and validity in biodiversity citizen science data production. Aslib Journal of Information Management. 75(1), 149-170. https://doi.org/10.1108/AJIM-10-2021-0292\nEkström, B. (2022). A niche of their own: Variations of information practices in biodiversity citizen science. Journal of Documentation, 78(7), 248-265. https://doi.org/10.1108/JD-07-2021-0146\nEkström, B. (2022). Trace data visualisation enquiry: A methodological coupling for studying in- formation practices in relation to information systems. Journal of Documentation, 78(7), 141-159. https://doi.org/10.1108/JD-04-2021-0082\nEkström, B. (2017). Vart är open access-rörelsen på väg? Fyra tendenser i svenska och brittiska open access-nätverk. Tidskrift för ABM, 2(2), 5-35.\nEkström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMuseum och UbuWeb. Tidskrift för ABM, 2(1), 4-14."
+    "text": "List of research output and adjacent activities."
   },
   {
     "objectID": "research.html#journal-articles",
     "href": "research.html#journal-articles",
     "title": "Research",
-    "section": "",
-    "text": "Ekström, B. (2023). Thousands of examining eyes: credibility, authority and validity in biodiversity citizen science data production. Aslib Journal of Information Management. 75(1), 149-170. https://doi.org/10.1108/AJIM-10-2021-0292\nEkström, B. (2022). A niche of their own: Variations of information practices in biodiversity citizen science. Journal of Documentation, 78(7), 248-265. https://doi.org/10.1108/JD-07-2021-0146\nEkström, B. (2022). Trace data visualisation enquiry: A methodological coupling for studying in- formation practices in relation to information systems. Journal of Documentation, 78(7), 141-159. https://doi.org/10.1108/JD-04-2021-0082\nEkström, B. (2017). Vart är open access-rörelsen på väg? Fyra tendenser i svenska och brittiska open access-nätverk. Tidskrift för ABM, 2(2), 5-35.\nEkström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMuseum och UbuWeb. Tidskrift för ABM, 2(1), 4-14."
+    "section": "Journal articles",
+    "text": "Journal articles\nEkström, B. (2024). No rose on this one? Citizen science field excursion negotiations at the Great Alvar. Nordic Journal of Science and Technology Studies, 12(1), 5-16. https://doi.org/10.5324/njsts.v12i1.5860\nEkström, B., & Wallin, E. T. (2023). Simple questions for complex matters? An enquiry into Swedish Google search queries on wind power. Nordic Journal of Library and Information Studies, 4(1), 34-50. https://doi.org/10.7146/njlis.v4i1.136246\nEkström, B. (2023). Thousands of examining eyes: Credibility, authority and validity in biodiversity citizen science data production. Aslib Journal of Information Management. 75(1), 149-170. https://doi.org/10.1108/AJIM-10-2021-0292\nEkström, B. (2022). A niche of their own: Variations of information practices in biodiversity citizen science. Journal of Documentation, 78(7), 248-265. https://doi.org/10.1108/JD-07-2021-0146\nEkström, B. (2022). Trace data visualisation enquiry: A methodological coupling for studying information practices in relation to information systems. Journal of Documentation, 78(7), 141-159. https://doi.org/10.1108/JD-04-2021-0082\nEkström, B. (2017). Vart är open access-rörelsen på väg? Fyra tendenser i svenska och brittiska open access-nätverk. Tidskrift för ABM, 2(2), 5-35.\nEkström, B. (2017). Publiceringsvariationer: En jämförelse mellan DigitaltMuseum och UbuWeb. Tidskrift för ABM, 2(1), 4-14."
   },
   {
     "objectID": "research.html#book-chapters",
@@ -67,21 +67,21 @@
     "href": "research.html#editorship",
     "title": "Research",
     "section": "Editorship",
-    "text": "Editorship\nBarry, B. (2014). Music in text. Bläck charm nostalgi vassa tänder."
+    "text": "Editorship\nGraminius, C., Ekström, B., & Haider, J. (2023). Editorial. Nordic Journal of Library and Information Studies, 4(1), i-iv. https://doi.org/10.7146/njlis.v4i1.141009\nBarry, B. (2014). Music in text. Bläck charm nostalgi vassa tänder.1"
   },
   {
     "objectID": "research.html#presentations",
     "href": "research.html#presentations",
     "title": "Research",
     "section": "Presentations",
-    "text": "Presentations\nEkström, B. (2023). Understanding wind power search queries and results with RAT. RAT Community Meeting, Hamburg University of Applied Sciences, Hamburg, Germany. 8 September 2023.\nEkström, B. (2022). Från fältarbete till artdata. Gothenburg Book Fair, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.\nEkström, B., Jackson, C., Crowston, K., & Østerlund, C. (2022). Tracing Knowledge Production in an Online Citizen Science Project. After Method in Organization Studies IV (AMOS): The Epistemology of Practice, Mälardalen University, Västerås, Sweden. 16-17 June 2022.\nEkström, B. (2022). Från naturupplevelse till artdata. SFIS vårkonferens, Chalmers University of Technology, Gothenburg, Sweden. 10 June 2022.\nEkström, B., Jackson, C., & Østerlund, C. (2021). Tracing Hyperlinks: How to support different forms of presence and knowledge production in an online citizen science community? Good Relations: Practices and Methods in Unequal and Uncertain Worlds. 4S Annual Meeting. Toronto, Canada. 6-9 October 2021."
+    "text": "Presentations\nEkström, B. (2023). Understanding wind power search queries and results with RAT. RAT Community Meeting, Hamburg University of Applied Sciences, Hamburg, Germany. 8 September 2023.\nEkström, B. (2022). Från fältarbete till artdata. Gothenburg Book Fair, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022.\nEkström, B., Jackson, C., Crowston, K., & Østerlund, C. (2022). Tracing knowledge production in an online citizen science project. After Method in Organization Studies IV (AMOS): The Epistemology of Practice, Mälardalen University, Västerås, Sweden. 16-17 June 2022.\nEkström, B. (2022). Från naturupplevelse till artdata. SFIS vårkonferens, Chalmers University of Technology, Gothenburg, Sweden. 10 June 2022.\nEkström, B., Jackson, C., & Østerlund, C. (2021). Tracing hyperlinks: How to support different forms of presence and knowledge production in an online citizen science community? Good Relations: Practices and Methods in Unequal and Uncertain Worlds. 4S Annual Meeting. Toronto, Canada. 6-9 October 2021."
   },
   {
     "objectID": "research.html#panels",
     "href": "research.html#panels",
     "title": "Research",
     "section": "Panels",
-    "text": "Panels\nGraminius, C., Haider, J., Cardoso, N., Fedorowicz-Kruszewska, M., Ekström, B., & Pilerot, O. (2022). LIS and environmental research: what, when, how?. Conceptions of Library and Information Science 11, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.\nYousefi Mojir, K, Haider, J., Johansson, V., Ekström, B., & Eklund, S. (2022). Vad kan informationsvetenskap bidra med i klimatkrisen? Gothenburg Book Fair, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022."
+    "text": "Panels\nGraminius, C., Haider, J., Cardoso, N., Fedorowicz-Kruszewska, M., Ekström, B., & Pilerot, O. (2022). LIS and environmental research: What, when, how?. Conceptions of Library and Information Science 11, Oslo Metropolitan University, Oslo, Norway. 29 May - 1 June 2022.\nYousefi Mojir, K., Haider, J., Johansson, V., Ekström, B., & Eklund, S. (2022). Vad kan informationsvetenskap bidra med i klimatkrisen?. Gothenburg Book Fair, The Swedish Exhibition & Congress Centre, Gothenburg, Sweden. 22 September 2022."
   },
   {
     "objectID": "research.html#reports",
@@ -116,6 +116,83 @@
     "href": "research.html#memberships",
     "title": "Research",
     "section": "Memberships",
-    "text": "Memberships\n4S (Society for Social Studies of Science)\nSvensk biblioteksförening"
+    "text": "Memberships\n4S (Society for Social Studies of Science).\nSvensk biblioteksförening."
+  },
+  {
+    "objectID": "research.html#footnotes",
+    "href": "research.html#footnotes",
+    "title": "Research",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCo-editor with Elias Hillström.↩︎"
+  },
+  {
+    "objectID": "software.html#pure-data-audio-software",
+    "href": "software.html#pure-data-audio-software",
+    "title": "Software",
+    "section": "Pure Data audio software",
+    "text": "Pure Data audio software\n\nAudio recorder\n\n\n\nAudio recorder programmed in Pure Data.\n\n\nGithub link\n\n\nBjörn’s mixer\n\n\n\nLooping sample mixer programmed in Pure Data.\n\n\nGithub link"
+  },
+  {
+    "objectID": "software.html#jupyter-notebook-teaching-resources",
+    "href": "software.html#jupyter-notebook-teaching-resources",
+    "title": "Software",
+    "section": "Jupyter Notebook teaching resources",
+    "text": "Jupyter Notebook teaching resources\n\nindexering-konvertering\nJupyter Notebook (in Swedish) to handle and convert index terms for manifestations.\n\n\nprecision-recall\nJupyter Notebook (in Swedish) for calculating precision and recall."
+  },
+  {
+    "objectID": "software.html#audio-software",
+    "href": "software.html#audio-software",
+    "title": "Software",
+    "section": "Audio software",
+    "text": "Audio software\n\nAudio recorder\n\nAudio recorder built in Pure Data.1\nCode on Github\n\n\npdnkmixer\n\nEight channel looping sample mixer built in Pure Data. For standalone use or via MIDI with Korg nanokontrol2.\nCode on Github"
+  },
+  {
+    "objectID": "software.html#teaching-resources",
+    "href": "software.html#teaching-resources",
+    "title": "Software",
+    "section": "Teaching resources",
+    "text": "Teaching resources\n\nPrecision och recall\nJupyter Notebook (in Swedish) for calculating precision and recall.\nCode on Github\n\n\nÄmnesordsindexering och datakonvertering\nJupyter Notebook (in Swedish) to handle and convert index terms for manifestations.\nCode on Github"
+  },
+  {
+    "objectID": "research.html#acknowledgements",
+    "href": "research.html#acknowledgements",
+    "title": "Research",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nGraminius, C. (2023). Open letters and climate communication: The professional roles and identities of researchers in times of crisis. Environmental Communication, 1–13. https://doi.org/10.1080/17524032.2023.2225765\nNelhans, G., & Nolin, J. (2022). Anti-transparency within the EU shift to open science. Science and Public Policy, 49(6), 928-941, https://doi.org/10.1093/scipol/scac039"
+  },
+  {
+    "objectID": "research.html#peer-review-commitments",
+    "href": "research.html#peer-review-commitments",
+    "title": "Research",
+    "section": "Peer review commitments",
+    "text": "Peer review commitments\nJournal of Information Science.\nNordic Journal of Library and Information Studies.\nConceptions of Library and Information Science (CoLIS).\nTveit, Åse Kristine; Bøyum, Idunn (2023). Rom for lesing og utforsking: Skolebibliotekets muligheter. ABM-media AS."
+  },
+  {
+    "objectID": "research.html#editorial-work",
+    "href": "research.html#editorial-work",
+    "title": "Research",
+    "section": "Editorial work",
+    "text": "Editorial work\nGraminius, C., Ekström, B., & Haider, J. (2023). Editorial. Nordic Journal of Library and Information Studies, 4(1), i-iv. https://doi.org/10.7146/njlis.v4i1.141009\nBarry, B. (2014). Music in text. Bläck charm nostalgi vassa tänder.1"
+  },
+  {
+    "objectID": "teaching.html#supervised-theses",
+    "href": "teaching.html#supervised-theses",
+    "title": "Teaching",
+    "section": "Supervised theses",
+    "text": "Supervised theses\nSanyal, R. (2023). Climate change on the English Wikipedia: How the climate change controversy plays out in Wikipedia edit histories (Master’s thesis). University of Borås.1"
+  },
+  {
+    "objectID": "teaching.html#footnotes",
+    "href": "teaching.html#footnotes",
+    "title": "Teaching",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCo-supervisor with Jutta Haider.↩︎"
+  },
+  {
+    "objectID": "software.html#footnotes",
+    "href": "software.html#footnotes",
+    "title": "Software",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nDerived from Q Visible’s Pure Data Tutorial 16 - adc~ object sound from microphone.↩︎"
   }
 ]
