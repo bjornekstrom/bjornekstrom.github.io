@@ -1,3 +1,3 @@
 # bjornekstrom.github.io
 
-My website. Built with [Tufte CSS](https://edwardtufte.github.io/tufte-css/).
+My website. Built with [Water.CSS](https://github.com/kognise/water.css).
